@@ -607,7 +607,7 @@
   color: #fff;
 }
 .general-gestaltung:not(.contrast):not(.print) #page .content_right #contentquicklinks {
-  background-image: url(/websites/bauhaus_news/flieger_gestaltung.svg);
+  background-image: url(../../websites/bauhaus_news/flieger_gestaltung.svg);
   border: 2px solid #94c11c;
 }
 .general-gestaltung:not(.contrast):not(.print) #page .content_right #contentquicklinks header.csc-header,
