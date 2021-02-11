@@ -1,0 +1,57 @@
+@media (min-width: 30em) {
+	
+	/* masthead */
+	.masthead{
+		width: 240px;
+		padding: 0;
+	}
+	
+	/* menu */
+	.menu-service__item{
+		margin-right:1.25em}
+	
+	/* navigation */
+	.nav-site--mobile{
+		margin:auto;
+		max-width:28em;
+		margin-bottom:4em;
+	}
+	.nav-tools{
+		 margin-bottom: 2em;
+    padding-top: 10px;
+		display: block}
+	.nav-tools--mobile{
+		display:none !important}
+
+	/* publication */
+	.publications{
+		margin: 0;
+	}
+	.publication__image{
+		vertical-align: top;
+		display: inline-block;
+		margin-right: 10px;
+	}
+	.publication__text{
+		width: 65%;
+		width: calc(100% - 160px);
+		vertical-align: top;
+		display: inline-block;
+	}
+	
+	/* teaser */
+	.teaser__image{
+		width:200px;
+		vertical-align:top;
+		display:inline-block;
+		margin-right:10px;
+	}
+	.teaser__text{
+		margin:0;
+		width:50%;
+		width:calc(100% - 220px);
+		vertical-align:top;
+		display:inline-block;
+	}
+	
+}

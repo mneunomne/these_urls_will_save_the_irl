@@ -1,0 +1,99 @@
+.tx-buwvimeo-player div.text {
+  /*
+    body.uni & {
+      // Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f39200+0,cb006c+100
+      background: rgba(183,26,73, .75);
+      background: -moz-linear-gradient(145deg, rgba(183,26,73, .75) 0%, rgba(203, 0, 108, .75) 100%); // FF3.6-15
+      background: -webkit-linear-gradient(145deg, rgba(183,26,73, .75) 0%, rgba(203, 0, 108, .75) 100%); // Chrome10-25, Safari5.1-6
+      background: linear-gradient(145deg, rgba(183,26,73, .75) 0%, rgba(203, 0, 108, .75) 100%); // W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+      //filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f39200', endColorstr='#cb006c', GradientType=1); // IE6-9 fallback on horizontal gradient
+    }
+*/
+}
+body.architektur .tx-buwvimeo-player div.text {
+  background: rgba(0, 155, 180, 0.75);
+  background: -moz-linear-gradient(145deg, rgba(0, 155, 180, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+  background: -webkit-linear-gradient(145deg, rgba(0, 155, 180, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+  background: linear-gradient(145deg, rgba(0, 155, 180, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+}
+body.uni .tx-buwvimeo-player div.text,
+body.bauing .tx-buwvimeo-player div.text {
+  background: rgba(243, 145, 0, 0.75);
+  background: -moz-linear-gradient(145deg, rgba(243, 145, 0, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+  background: -webkit-linear-gradient(145deg, rgba(243, 145, 0, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+  background: linear-gradient(145deg, rgba(243, 145, 0, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+}
+body.gestaltung .tx-buwvimeo-player div.text {
+  background: rgba(148, 193, 28, 0.75);
+  background: -moz-linear-gradient(145deg, rgba(148, 193, 28, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+  background: -webkit-linear-gradient(145deg, rgba(148, 193, 28, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+  background: linear-gradient(145deg, rgba(148, 193, 28, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+}
+body.medien .tx-buwvimeo-player div.text {
+  background: rgba(0, 107, 148, 0.75);
+  background: -moz-linear-gradient(145deg, rgba(0, 107, 148, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+  background: -webkit-linear-gradient(145deg, rgba(0, 107, 148, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+  background: linear-gradient(145deg, rgba(0, 107, 148, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+}
+body.summaery2020 .tx-buwvimeo-player div.text {
+  background: rgba(0, 159, 227, 0.75);
+  background: -moz-linear-gradient(145deg, rgba(0, 159, 227, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+  background: -webkit-linear-gradient(145deg, rgba(0, 159, 227, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+  background: linear-gradient(145deg, rgba(0, 159, 227, 0.75) 0%, rgba(203, 0, 108, 0.75) 100%);
+}
+.tx-buwvimeo-player header {
+  hyphens: none;
+  padding: 25px 35px 20px;
+}
+.tx-buwvimeo-player header h1,
+.tx-buwvimeo-player header h2 {
+  background-color: transparent;
+}
+.tx-buwvimeo-player header h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.tx-buwvimeo-player div.control {
+  padding: 30px 40px 30px 35px;
+}
+.tx-buwvimeo-player div.control button {
+  background-color: transparent;
+  height: 55px;
+  width: 55px;
+}
+.tx-buwvimeo-player div.control .play button {
+  background-image: url('../Icons/Play.svg');
+}
+.tx-buwvimeo-player div.control .unlock {
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+.tx-buwvimeo-player div.control .unlock button {
+  background-image: url('../Icons/Unlock.svg');
+}
+.tx-buwvimeo-player div.control p {
+  font-size: 17px;
+}
+.tx-buwvimeo-player.size-m .has-header div.control button,
+.tx-buwvimeo-player.size-s .has-header div.control button,
+.tx-buwvimeo-player.size-xs div.control button {
+  height: 32px;
+  width: 32px;
+}
+.tx-buwvimeo-player.size-s div.control p > span,
+.tx-buwvimeo-player.size-xs div.control p > span {
+  display: inline;
+  line-height: 1.1;
+}
+body.all .tx-buwvimeo-player a:link,
+.summaery2020.general-uni:not(.contrast):not(.print) .tx-buwvimeo-player a:link,
+body.all .tx-buwvimeo-player a:visited,
+.summaery2020.general-uni:not(.contrast):not(.print) .tx-buwvimeo-player a:visited {
+  border-bottom-color: #fff;
+  color: #fff;
+}
+/* Vimeo preview picture in right column */
+#content_right .grid .tx-buwvimeo-player figure img {
+  margin-left: 0;
+}
+/*# sourceMappingURL=Custom.css.map */

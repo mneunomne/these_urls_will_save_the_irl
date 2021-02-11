@@ -1,0 +1,63 @@
+.tx-browser-pi1 .listview-401 .thumb {margin-right:20px;}#content_main .tx-browser-pi1 img {border-color:#777;}#content_main .tx-browser-pi1 img {border-width:1px;}#content_main .tx-browser-pi1 img {padding:0px;}.multicolumnLayout2.equal-height > .column > .columnItems,
+.multicolumnLayout3.equal-height > .column > .columnItems {
+  height: 100%;
+}
+#page #nav #bgBarContainer:not(.clicked){
+  max-height: 25px !important;
+}
+#page .csc-textpic-intext-left .csc-textpic-imagewrap figure.csc-textpic-image,
+#page .csc-textpic-intext-right .csc-textpic-imagewrap figure.csc-textpic-image {
+  display: table;
+}
+#page .csc-textpic-intext-left .csc-textpic-imagewrap figure.csc-textpic-image figcaption.csc-textpic-caption,
+#page .csc-textpic-intext-right .csc-textpic-imagewrap figure.csc-textpic-image figcaption.csc-textpic-caption {
+  display: table-caption;
+}
+.content_main > .csc-teaser .csc-textpic-text:empty {
+  padding-bottom: 0px !important
+}
+.microsite .start-slider {
+  z-index: 0;
+  margin-top: -51px;
+  margin-bottom: 0;
+}
+.microsite .start-slider + div{
+  margin-bottom: 25px;
+}
+.microsite ul#microsite-main-list .customer-data .subtitle {
+  padding-bottom: 0px;
+}
+.menu-entry.start-sliderPause {
+  display: none;
+  visibility: hidden;
+  width: 0 !important;
+}
+#content_right figcaption.csc-textpic-caption {
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.architektur .breadcrumbNavigation #breadcrumbs ol li:last-child > span.trail-highlight:before {
+ color: #009bb4;
+}
+.gestaltung .breadcrumbNavigation #breadcrumbs ol li:last-child > span.trail-highlight:before {
+ color: #94c11c;
+}
+.bauing .breadcrumbNavigation #breadcrumbs ol li:last-child > span.trail-highlight:before {
+ color: #f39100;
+}
+.medien .breadcrumbNavigation #breadcrumbs ol li:last-child > span.trail-highlight:before {
+ color: #006b94;
+}
+#body-48155 #page .csc-textpic-imagewrap {
+ flex-wrap: wrap;
+}
+#body-48155 #page .csc-textpic-imagewrap .csc-textpic-imagecolumn {
+ min-width: 10%;
+}
+#page #c367903 .csc-gallery-slideshow.csc-textpic .csc-gallery-slideshow-single[style] {
+  display: contents !important;
+}
+#page #c367903 .csc-gallery-slideshow .csc-ctrl-wrap {
+  z-index: 76;
+  max-height: 99%;
+}.news-single .obituary {border: 2px solid #000; padding: 25px 25px 0;}

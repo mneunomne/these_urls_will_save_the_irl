@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+
+.finderoverlay {
+	height: 100%;
+	width: 100%;
+	display: none;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+}
+
+.finderoverlay a.brand img {
+	margin: 20px;
+}
+
+.finderoverlay-content {
+	position: relative;
+	top: 15%;
+	width: 80%;
+	text-align: center;
+	margin-top: 30px;
+	margin: auto;
+}
+
+.finderoverlay-content label {
+	float: right;
+}
+
+.finderoverlay .close-icon {
+	position: absolute;
+	top: 18px;
+	right: 22px;
+	width: 36px;
+	height: 36px;
+	display: block;
+	border: none;
+	padding: 0;
+	margin: 0;
+	line-height: 36px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.finderoverlay .close-icon {
+	color: #333;
+	background: #fff;
+	font-size: 16px;
+	font-family: 'IcoMoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+.finderoverlay .close-icon:before {
+	content: "\4a";
+}
+
+.finderoverlay .close-icon:hover {
+	color: #666;
+}
+
+.finderoverlay input[type=text] {
+	padding: 15px;
+	font-size: 16px;
+	border: 1px solid #eee;
+	float: left;
+	width: 100%;
+	background: #fff;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.finderoverlay input[type=text]:hover {
+	background: #f5f5f5;
+}
+
+.finder-icon {
+	width: 36px;
+	height: 36px;
+	display: block;
+	border: none;
+	padding: 0;
+	margin: 0;
+	line-height: 36px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.finder-icon {
+	color: #333;
+	background: transparent;
+	font-size: 16px;
+	font-family: 'IcoMoon';
+	float: right;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+.finder-icon:before {
+	content: "\53";
+}

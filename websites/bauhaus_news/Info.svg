@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 728 243" style="enable-background:new 0 0 728 243;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{clip-path:url(#SVGID_4_);}
+	.st2{fill:url(#SVGID_5_);}
+	.st3{clip-path:url(#SVGID_4_);enable-background:new    ;}
+	.st4{fill:#FFFFFF;}
+</style>
+<title>2019_Rebrush_teaserbanner</title>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="728" height="243"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<g>
+			<defs>
+				<rect id="SVGID_3_" width="728" height="243"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st1">
+				
+					<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-2479.0293" y1="216.4015" x2="-2478.0293" y2="216.4015" gradientTransform="matrix(1743.4926 -1119.3024 1119.3024 1743.4926 4079886.5 -3151681.5)">
+					<stop  offset="0" style="stop-color:#9D5D5D"/>
+					<stop  offset="9.000000e-02" style="stop-color:#9B8146"/>
+					<stop  offset="0.26" style="stop-color:#98C21D"/>
+					<stop  offset="0.32" style="stop-color:#99B723"/>
+					<stop  offset="0.43" style="stop-color:#9B9B34"/>
+					<stop  offset="0.57" style="stop-color:#9F6D4E"/>
+					<stop  offset="0.63" style="stop-color:#A1595A"/>
+					<stop  offset="0.67" style="stop-color:#A34159"/>
+					<stop  offset="0.83" style="stop-color:#9E803C"/>
+					<stop  offset="1" style="stop-color:#98C21D"/>
+				</linearGradient>
+				<polygon class="st2" points="-110.5,70.9 515.5,-331 838.5,172.1 212.5,574 				"/>
+			</g>
+			<g class="st3">
+				<path class="st4" d="M581.9,186.8v5.9h-65.6v-5.9h13.5v-74.7h-13.5v-5.9h53.7v80.6H581.9z M550.1,95.9c-6.3,0-11.7-2.3-16.2-6.8
+					c-4.5-4.5-6.8-10-6.8-16.4c0-6.3,2.2-11.7,6.7-16.2c4.4-4.5,9.9-6.8,16.3-6.8s11.9,2.3,16.3,6.8c4.4,4.5,6.7,9.9,6.7,16.2
+					c0,6.4-2.2,11.9-6.7,16.4C562,93.7,556.6,95.9,550.1,95.9z M550.1,55.7c-4.7,0-8.8,1.7-12.1,5c-3.3,3.3-5,7.3-5,12.1V73
+					c0,4.6,1.7,8.6,5,12c3.3,3.4,7.3,5.1,12.1,5.1s8.8-1.7,12.1-5.1c3.3-3.4,5-7.4,5-12c0-4.7-1.7-8.8-5-12.2
+					C558.9,57.4,554.9,55.7,550.1,55.7z M564,112.2h-28v74.7h28V112.2z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

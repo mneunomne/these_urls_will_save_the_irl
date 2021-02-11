@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/**
+ * Theme Name:     Muthesius Kunsthochschule
+ * Theme URI:      
+ * Description:    Child theme for the html5blank-master theme. Customized for Muthesius.
+ * Author:         vektorrausch GmbH
+ * Author URI:     http://vektorrausch.de
+ * Template:       html5blank-master
+ * Version:        1.0 (16.5.13) (DS)
+ */
+
+/*
+ * Import all stylesheets
+ */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,400italic,500italic,700,700italic,300italic,300);
+@import url('css/helper.css');
+@import url('css/styles.css');
+@import url('css/tablet.css');
+@import url('css/desktop.css');
+@import url('css/mobile.css');

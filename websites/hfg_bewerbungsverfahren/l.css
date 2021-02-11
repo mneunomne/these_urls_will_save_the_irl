@@ -1,0 +1,93 @@
+@media (min-width: 64em) {	
+	
+//	body{
+//		font-size: 14px;
+//	}
+	
+	/* definition list */
+//	dl{
+//		line-height:24px;
+//	}
+	
+	/* table */
+	table{
+		width: 90%}
+	.table--auto{
+		width: auto}	
+//	.article{
+//		line-height:24px;
+//	}
+	
+	/* breadcrumb */
+	.breadcrumb--desktop{
+		display:block}
+	
+	/* header */
+	.header{
+		position: absolute;
+		width: 320px;
+		margin: 0;
+	}
+	
+	/* main */
+	.main{
+		margin-left: 320px;
+		width: calc(100% - 320px);
+	}
+	
+	/* masthead */
+	.masthead{
+		margin-left:13px;
+		width: 290px;
+	}
+		
+	/* navigation */
+	.nav-site--mobile{
+		display:none}
+	.nav-toggle {
+    	display: none;
+  	}
+	.nav-tools{
+		padding-left: 13px}
+	.navigation-site{
+		padding-left: 13px;
+		display:block;
+	}
+	
+	/* tools */
+	.tools__page{
+		display: none;
+	}
+	
+	/* media */
+	/*.js */.media{
+		width: 90%}
+		
+}
+@media only screen and (min-width: 64em) and (min-height: 50em)
+{
+	/* header */
+	.header{
+		position: fixed;
+	}
+
+}
+@media only screen and (min-width: 64em) and (min-aspect-ratio: 16/9)
+{
+	/*.js */.media{
+		width: 70%}
+}
+@media only screen and (min-width: 64em) and (min-aspect-ratio: 16/8)
+{
+	/*.js */.media{
+		width: 60%}
+}
+@media only screen and (min-width: 64em) and (max-height: 60em)
+{
+	.menu-site__item--offset {
+    	margin-bottom: unset;
+	}
+	.menu-site {
+    	margin-bottom: 1em;
+	}
+}

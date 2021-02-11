@@ -1,0 +1,69 @@
+.log{
+	bottom:0;
+	right:0;
+	background:#000;
+	color:#fff;
+	padding:0.25em;
+	display:inline-block;
+	position:fixed;
+	z-index:111;
+	font-size:12px;
+}
+.demo{
+	bottom:0;
+	right:0;
+	background:#000;
+	color:#fff;
+	padding:0.25em;
+	display:inline-block;
+	position:fixed;
+	z-index:110;
+	font-size:12px;
+}
+.demo a{
+	color:#fff;
+}
+.debug{
+	bottom:0;
+	left:0;
+	background:#000;
+	color:#fff;
+	padding:0.25em;
+	display:inline-block;
+	position:fixed;
+	z-index:110;
+	font-size:12px;
+}
+.debug:after{
+	content:"xs / smartphone";
+}
+/* 480 px */
+@media screen and (min-width: 30em) {
+	.debug:after{
+		content:"s / 480 Px / smartphone landscape";
+	}
+}
+/* 768 px */
+@media screen and (min-width: 48em) {
+	.debug:after{
+		content:"m / 768 Px / tablet portrait";
+	}
+}
+/* 1024 px */
+@media screen and (min-width: 64em) {
+	.debug:after{
+		content:"l / 1024 Px / laptop";
+	}
+}
+/* 1280 px */
+@media screen and (min-width: 80em) {
+	.debug:after{
+		content:"xl / 1280 Px / laptop";
+	}
+}
+/* 1280 px */
+@media screen and (min-width: 80em) and (min-height: 40em) {
+	.debug:after{
+		content:"xxl / 1280 x 640 Px / desktop";
+	}
+}

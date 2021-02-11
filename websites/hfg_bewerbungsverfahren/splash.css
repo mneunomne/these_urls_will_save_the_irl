@@ -1,0 +1,29 @@
+/* splash */	
+.splash{
+	left: -100em;
+	top: 1.5em;
+	position: absolute;
+	z-index:200;
+}
+.splash--active{
+	left: 8em;
+	top: 1.5em;
+}
+@media (min-width: 30em) {
+	.splash--active{
+		left: 16em;
+		top: 6em;
+	}
+}
+@media (min-width: 48em) {
+	.splash--active{
+		left: 14.5em;
+		top: 7em;
+	}
+}
+@media (min-width: 64em) {	
+	.splash--active{
+		left: 10em;
+		top: 12.75em;
+	}
+}

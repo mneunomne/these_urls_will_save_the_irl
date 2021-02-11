@@ -1,0 +1,854 @@
+@keyframes slideBgImageInUniAbs {
+  0% {
+    border-color: #b71a49;
+    background-position-x: 0%;
+    color: #b71a49;
+  }
+  5% {
+    border-color: #fff;
+    color: #fff;
+  }
+  100% {
+    background-position-x: 99%;
+    color: #fff;
+  }
+}
+@keyframes slideBgImageInUniFix {
+  0% {
+    border-color: #b71a49;
+    background-position-x: 0%;
+    color: #b71a49;
+  }
+  5% {
+    border-color: #fff;
+    color: #fff;
+  }
+  100% {
+    background-position-x: 99%;
+    color: #fff;
+  }
+}
+@keyframes slideBgImageInUni {
+  0% {
+    border-color: #b71a49;
+    background-position-x: 0%;
+    color: #b71a49;
+  }
+  5% {
+    border-color: #fff;
+    color: #fff;
+  }
+  100% {
+    background-position-x: 99%;
+    color: #fff;
+  }
+}
+@keyframes slideBgImageOutUni {
+  0% {
+    background-position-x: 99%;
+    color: #fff;
+  }
+  90% {
+    background-position-x: 0%;
+    background-position-y: 0%;
+    color: #fff;
+    border-color: #fff;
+  }
+  100% {
+    background-position-x: 0%;
+    background-position-y: -100%;
+    color: #b71a49;
+    border-color: #b71a49;
+  }
+}
+@keyframes slideBgImageInArchitektur {
+  0% {
+    border-color: #009bb4;
+    background-position-x: 0%;
+    color: #009bb4;
+  }
+  5% {
+    border-color: #fff;
+    color: #fff;
+  }
+  100% {
+    background-position-x: 99%;
+    color: #fff;
+  }
+}
+@keyframes slideBgImageOutArchitektur {
+  0% {
+    background-position-x: 99%;
+    color: #fff;
+  }
+  90% {
+    background-position-x: 0%;
+    background-position-y: 0%;
+    color: #fff;
+    border-color: #fff;
+  }
+  100% {
+    background-position-x: 0%;
+    background-position-y: -100%;
+    color: #009bb4;
+    border-color: #009bb4;
+  }
+}
+@keyframes slideBgImageInBauing {
+  0% {
+    border-color: #f39100;
+    background-position-x: 0%;
+    color: #f39100;
+  }
+  5% {
+    border-color: #fff;
+    color: #fff;
+  }
+  100% {
+    background-position-x: 99%;
+    color: #fff;
+  }
+}
+@keyframes slideBgImageOutBauing {
+  0% {
+    background-position-x: 99%;
+    color: #fff;
+  }
+  90% {
+    background-position-x: 0%;
+    background-position-y: 0%;
+    color: #fff;
+    border-color: #fff;
+  }
+  100% {
+    background-position-x: 0%;
+    background-position-y: -100%;
+    color: #f39100;
+    border-color: #f39100;
+  }
+}
+@keyframes slideBgImageInGestaltung {
+  0% {
+    border-color: #94c11c;
+    background-position-x: 0%;
+    color: #94c11c;
+  }
+  5% {
+    border-color: #fff;
+    color: #fff;
+  }
+  100% {
+    background-position-x: 99%;
+    color: #fff;
+  }
+}
+@keyframes slideBgImageOutGestaltung {
+  0% {
+    background-position-x: 99%;
+    color: #fff;
+  }
+  90% {
+    background-position-x: 0%;
+    background-position-y: 0%;
+    color: #fff;
+    border-color: #fff;
+  }
+  100% {
+    background-position-x: 0%;
+    background-position-y: -100%;
+    color: #94c11c;
+    border-color: #94c11c;
+  }
+}
+@keyframes slideBgImageInMedien {
+  0% {
+    border-color: #006b94;
+    background-position-x: 0%;
+    color: #006b94;
+  }
+  5% {
+    border-color: #fff;
+    color: #fff;
+  }
+  100% {
+    background-position-x: 99%;
+    color: #fff;
+  }
+}
+@keyframes slideBgImageOutMedien {
+  0% {
+    background-position-x: 99%;
+    color: #fff;
+  }
+  90% {
+    background-position-x: 0%;
+    background-position-y: 0%;
+    color: #fff;
+    border-color: #fff;
+  }
+  100% {
+    background-position-x: 0%;
+    background-position-y: -100%;
+    color: #006b94;
+    border-color: #006b94;
+  }
+}
+@keyframes hoverPageUpLinkUni {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #b71a49;
+  }
+}
+@keyframes hoverPageUpLinkArchitektur {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #009bb4;
+  }
+}
+@keyframes hoverPageUpLinkBauing {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #f39100;
+  }
+}
+@keyframes hoverPageUpLinkGestaltung {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #94c11c;
+  }
+}
+@keyframes hoverPageUpLinkMedien {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #006b94;
+  }
+}
+.general-gestaltung:not(.contrast):not(.print) form .btn-primary {
+  color: #fff;
+  background: #94c11c;
+  border: 2px solid #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) form .btn-primary:hover {
+  color: #94c11c;
+  background: #fff;
+}
+.general-gestaltung:not(.contrast):not(.print) ul.csc-uploads span.csc-uploads-fileName a {
+  border-bottom: 1px dotted #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) ul.csc-uploads span.csc-uploads-fileName a:hover {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) ul.csc-uploads span.csc-uploads-fileName a:hover:after {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .backbutton a span:before {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .backbutton a:hover {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .backbutton a:hover span:before {
+  color: #000;
+}
+.general-gestaltung:not(.contrast):not(.print) .bannerSlider .bannerButton.icon-Haken-links:before {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .tx-pap-contentflip #pap_list .pap_contentflip.liste .contentflip_right .left a:hover,
+.general-gestaltung:not(.contrast):not(.print) #page .tx-pap-contentflip #pap_list .pap_contentflip.liste .contentflip_right .right a:hover {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .csc-linkToTop .csc-toTop-Link:hover {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .csc-linkToTop .csc-toTop-Link:hover:after {
+  color: #94c11c !important;
+}
+.general-gestaltung:not(.contrast):not(.print) #toTopLink {
+  border: 1px solid #94c11c;
+  border-bottom: 1px solid #94c11c !important;
+}
+.general-gestaltung:not(.contrast):not(.print) #toTopLink:before {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #toTopLink:hover,
+.general-gestaltung:not(.contrast):not(.print) #toTopLink.absolute:hover {
+  background-image: url(../images/farbverlauf_gestaltung.png);
+  animation: slideBgImageInUniFix 4s forwards;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .browsebox ul li :not(a) > span,
+.general-gestaltung:not(.contrast):not(.print) #page .kesearch_pagebrowser ul li :not(a) > span,
+.general-gestaltung:not(.contrast):not(.print) #page .browsebox ul li a,
+.general-gestaltung:not(.contrast):not(.print) #page .kesearch_pagebrowser ul li a {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .browsebox ul li span.icon-Haken-rechts:before,
+.general-gestaltung:not(.contrast):not(.print) #page .kesearch_pagebrowser ul li span.icon-Haken-rechts:before,
+.general-gestaltung:not(.contrast):not(.print) #page .browsebox ul li span.icon-Haken-links:before,
+.general-gestaltung:not(.contrast):not(.print) #page .kesearch_pagebrowser ul li span.icon-Haken-links:before {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .browsebox ul li.active span,
+.general-gestaltung:not(.contrast):not(.print) #page .kesearch_pagebrowser ul li.active span {
+  background: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .browsebox ul li .next:before,
+.general-gestaltung:not(.contrast):not(.print) #page .kesearch_pagebrowser ul li .next:before {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .page-navigation .f3-widget-paginator li.previous a:after,
+.general-gestaltung:not(.contrast):not(.print) .page-navigation .f3-widget-paginator li.last.next a:after {
+  background-image: url("../images/icon_pfeil_left_gestaltung.svg");
+}
+.general-gestaltung:not(.contrast):not(.print) .page-navigation .f3-widget-paginator li.last.next a:after {
+  background-image: url("../images/icon_pfeil_right_gestaltung.svg");
+}
+.general-gestaltung:not(.contrast):not(.print) .page-navigation .f3-widget-paginator .current {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) h2.headline.headline-main > a {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) h2.headline.headline-main > a:hover {
+  border-bottom: 1px dotted #94c11c !important;
+}
+.general-gestaltung:not(.contrast):not(.print) .content_container a > strong,
+.general-gestaltung:not(.contrast):not(.print) .content_container a {
+  color: #000;
+  border-bottom: 1px dotted #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .content_container a > strong:hover,
+.general-gestaltung:not(.contrast):not(.print) .content_container a:hover {
+  text-decoration: none;
+}
+.general-gestaltung:not(.contrast):not(.print) a.mail:hover,
+.general-gestaltung:not(.contrast):not(.print) a.download:hover,
+.general-gestaltung:not(.contrast):not(.print) a.external-link-new-window:hover,
+.general-gestaltung:not(.contrast):not(.print) a.csc-content-link:hover {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .internal-link:before,
+.general-gestaltung:not(.contrast):not(.print) .csc-more-link:before {
+  color: #94c11c !important;
+}
+.general-gestaltung:not(.contrast):not(.print) .internal-link:hover,
+.general-gestaltung:not(.contrast):not(.print) .csc-more-link:hover {
+  color: #94c11c !important;
+}
+.general-gestaltung:not(.contrast):not(.print) h1 > a.internal-link,
+.general-gestaltung:not(.contrast):not(.print) h2 > a.internal-link,
+.general-gestaltung:not(.contrast):not(.print) h3 > a.internal-link,
+.general-gestaltung:not(.contrast):not(.print) strong > a.internal-link,
+.general-gestaltung:not(.contrast):not(.print) p > a.internal-link,
+.general-gestaltung:not(.contrast):not(.print) li > a.internal-link,
+.general-gestaltung:not(.contrast):not(.print) i > a.internal-link,
+.general-gestaltung:not(.contrast):not(.print) td > a.internal-link,
+.general-gestaltung:not(.contrast):not(.print) span > a.internal-link,
+.general-gestaltung:not(.contrast):not(.print) h1 > a.csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) h2 > a.csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) h3 > a.csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) strong > a.csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) p > a.csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) li > a.csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) i > a.csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) td > a.csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) span > a.csc-more-link {
+  border-bottom: 1px dotted #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) h1 > a.internal-link:hover,
+.general-gestaltung:not(.contrast):not(.print) h2 > a.internal-link:hover,
+.general-gestaltung:not(.contrast):not(.print) h3 > a.internal-link:hover,
+.general-gestaltung:not(.contrast):not(.print) strong > a.internal-link:hover,
+.general-gestaltung:not(.contrast):not(.print) p > a.internal-link:hover,
+.general-gestaltung:not(.contrast):not(.print) li > a.internal-link:hover,
+.general-gestaltung:not(.contrast):not(.print) i > a.internal-link:hover,
+.general-gestaltung:not(.contrast):not(.print) td > a.internal-link:hover,
+.general-gestaltung:not(.contrast):not(.print) span > a.internal-link:hover,
+.general-gestaltung:not(.contrast):not(.print) h1 > a.csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) h2 > a.csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) h3 > a.csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) strong > a.csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) p > a.csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) li > a.csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) i > a.csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) td > a.csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) span > a.csc-more-link:hover {
+  color: #94c11c;
+  border-bottom: 1px dotted #000;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .news.news-single .singleview.singleview-401 h1 {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #rightMobileMenuLink {
+  border: 1px solid #94c11c !important;
+  color: #94c11c;
+  background-image: url(../images/farbverlauf_gestaltung.png);
+  animation: slideBgImageOutGestaltung 0.4s forwards;
+}
+.general-gestaltung:not(.contrast):not(.print) #rightMobileMenuLink .pfeilDown:before {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #rightMobileMenuLink:focus,
+.general-gestaltung:not(.contrast):not(.print) #rightMobileMenuLink:hover {
+  background-color: #94c11c;
+  background-image: url(../images/farbverlauf_gestaltung.png);
+  animation: slideBgImageInGestaltung 4s forwards;
+}
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.cke_dialog),
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.xdsoft_calendar) {
+  border: 2px solid #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.cke_dialog):first-child,
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.xdsoft_calendar):first-child {
+  border-top: none;
+}
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.cke_dialog) th,
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.xdsoft_calendar) th {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.cke_dialog) tr,
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.xdsoft_calendar) tr {
+  border-top: 2px solid #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.cke_dialog) thead,
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.xdsoft_calendar) thead {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.cke_dialog) td,
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.xdsoft_calendar) td {
+  border-top: 2px solid #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.cke_dialog) td[rowspan],
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.xdsoft_calendar) td[rowspan] {
+  position: relative;
+}
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.cke_dialog) td[rowspan]:before,
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.xdsoft_calendar) td[rowspan]:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  content: "";
+  border-left: 2px dotted #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.cke_dialog) td[rowspan]:after,
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.xdsoft_calendar) td[rowspan]:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -1px;
+  content: "";
+  border-right: 2px dotted #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.cke_dialog) td[rowspan="1"],
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.xdsoft_calendar) td[rowspan="1"] {
+  background: none;
+}
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.cke_dialog).scrollIndicator:after,
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.xdsoft_calendar).scrollIndicator:after,
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.cke_dialog).scrollIndicator:before,
+.general-gestaltung:not(.contrast):not(.print) #page table:not(.xdsoft_calendar).scrollIndicator:before {
+  text-shadow: 1px 1px 9px #3faa47;
+}
+.general-gestaltung:not(.contrast):not(.print) .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav {
+  border-bottom-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav li.ui-state-default {
+  position: relative;
+  border: 2px solid transparent;
+}
+.general-gestaltung:not(.contrast):not(.print) .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav li.ui-state-default a {
+  border: none;
+}
+.general-gestaltung:not(.contrast):not(.print) .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav li.ui-state-default:hover {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav li.ui-state-default:hover a {
+  color: #fff;
+}
+.general-gestaltung:not(.contrast):not(.print) .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav li.ui-state-default:after {
+  border-bottom: 2px solid #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav li.ui-tabs-active.ui-state-active {
+  border: 2px solid #94c11c;
+  border-bottom-width: 0px;
+  border-bottom-color: transparent;
+}
+.general-gestaltung:not(.contrast):not(.print) .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav li.ui-tabs-active.ui-state-active a {
+  border: none;
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav li.ui-tabs-active.ui-state-active:hover a {
+  color: #fff;
+}
+.general-gestaltung:not(.contrast):not(.print) .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav li.ui-tabs-active.ui-state-active:hover:before {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .tx-jfmulticontent-pi1 .ui-tabs .ui-tabs-panel .listview a.linktosingle:link {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .tx-jfmulticontent-pi1 .ui-tabs .ui-tabs-panel .listview hr {
+  border-bottom-color: #000;
+}
+.general-gestaltung:not(.contrast):not(.print) #sectionwrapper #off-canvas-left #rwd-menu-left ul.bare-menu.main > li.menu-item.active.parent > a {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #social-media-channels-rwd a {
+  border-bottom: 1px dotted transparent !important;
+}
+.general-gestaltung:not(.contrast):not(.print) #securityadvice a {
+  border-bottom: 1px dotted transparent !important;
+}
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .csc-teaser .csc-textpic:after,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .csc-teaser .csc-textpic:after {
+  border-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .topRowTrippleContent .csc-textpic-above .csc-textpic-text .csc-header .headline.headline-top,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .topRowTrippleContent .csc-textpic-above .csc-textpic-text .csc-header .headline.headline-top,
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .multicolumnLayout3 .csc-textpic-above .csc-textpic-text .csc-header .headline.headline-top,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .multicolumnLayout3 .csc-textpic-above .csc-textpic-text .csc-header .headline.headline-top,
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .multicolumnLayout2 .csc-textpic-above .csc-textpic-text .csc-header .headline.headline-top,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .multicolumnLayout2 .csc-textpic-above .csc-textpic-text .csc-header .headline.headline-top {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .topRowTrippleContent .csc-textpic-above .csc-textpic-text .csc-header .headline.headline-top a,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .topRowTrippleContent .csc-textpic-above .csc-textpic-text .csc-header .headline.headline-top a,
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .multicolumnLayout3 .csc-textpic-above .csc-textpic-text .csc-header .headline.headline-top a,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .multicolumnLayout3 .csc-textpic-above .csc-textpic-text .csc-header .headline.headline-top a,
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .multicolumnLayout2 .csc-textpic-above .csc-textpic-text .csc-header .headline.headline-top a,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .multicolumnLayout2 .csc-textpic-above .csc-textpic-text .csc-header .headline.headline-top a {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .topRowTrippleContent .csc-textpic-above .csc-textpic-text .csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .topRowTrippleContent .csc-textpic-above .csc-textpic-text .csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .multicolumnLayout3 .csc-textpic-above .csc-textpic-text .csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .multicolumnLayout3 .csc-textpic-above .csc-textpic-text .csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .multicolumnLayout2 .csc-textpic-above .csc-textpic-text .csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .multicolumnLayout2 .csc-textpic-above .csc-textpic-text .csc-more-link {
+  color: #000;
+}
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .topRowTrippleContent .csc-textpic-above .csc-textpic-text .csc-more-link::before,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .topRowTrippleContent .csc-textpic-above .csc-textpic-text .csc-more-link::before,
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .multicolumnLayout3 .csc-textpic-above .csc-textpic-text .csc-more-link::before,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .multicolumnLayout3 .csc-textpic-above .csc-textpic-text .csc-more-link::before,
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .multicolumnLayout2 .csc-textpic-above .csc-textpic-text .csc-more-link::before,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .multicolumnLayout2 .csc-textpic-above .csc-textpic-text .csc-more-link::before {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .topRowTrippleContent .csc-textpic-above .csc-textpic-text .csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .topRowTrippleContent .csc-textpic-above .csc-textpic-text .csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .multicolumnLayout3 .csc-textpic-above .csc-textpic-text .csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .multicolumnLayout3 .csc-textpic-above .csc-textpic-text .csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) #page #content_top .multicolumnLayout2 .csc-textpic-above .csc-textpic-text .csc-more-link:hover,
+.general-gestaltung:not(.contrast):not(.print) #page #content_bottom .multicolumnLayout2 .csc-textpic-above .csc-textpic-text .csc-more-link:hover {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page #content_main .csc-textpic-intext-right-nowrap .csc-textpic-text .csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) #page #mainContentSections .csc-textpic-intext-right-nowrap .csc-textpic-text .csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) #page #content_main .csc-textpic-intext-left-nowrap .csc-textpic-text .csc-more-link,
+.general-gestaltung:not(.contrast):not(.print) #page #mainContentSections .csc-textpic-intext-left-nowrap .csc-textpic-text .csc-more-link {
+  border-bottom: none;
+}
+.general-gestaltung:not(.contrast):not(.print) #page #content_main .csc-textpic-intext-right-nowrap .csc-textpic-text .csc-more-link:before,
+.general-gestaltung:not(.contrast):not(.print) #page #mainContentSections .csc-textpic-intext-right-nowrap .csc-textpic-text .csc-more-link:before,
+.general-gestaltung:not(.contrast):not(.print) #page #content_main .csc-textpic-intext-left-nowrap .csc-textpic-text .csc-more-link:before,
+.general-gestaltung:not(.contrast):not(.print) #page #mainContentSections .csc-textpic-intext-left-nowrap .csc-textpic-text .csc-more-link:before,
+.general-gestaltung:not(.contrast):not(.print) #page #content_main .csc-textpic-intext-right-nowrap .csc-textpic-text .csc-textpicHeader h2 a,
+.general-gestaltung:not(.contrast):not(.print) #page #mainContentSections .csc-textpic-intext-right-nowrap .csc-textpic-text .csc-textpicHeader h2 a,
+.general-gestaltung:not(.contrast):not(.print) #page #content_main .csc-textpic-intext-left-nowrap .csc-textpic-text .csc-textpicHeader h2 a,
+.general-gestaltung:not(.contrast):not(.print) #page #mainContentSections .csc-textpic-intext-left-nowrap .csc-textpic-text .csc-textpicHeader h2 a {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page #content_main .csc-textpic-intext-right-nowrap .csc-textpic-text .csc-teaser-text a:last-of-type,
+.general-gestaltung:not(.contrast):not(.print) #page #mainContentSections .csc-textpic-intext-right-nowrap .csc-textpic-text .csc-teaser-text a:last-of-type,
+.general-gestaltung:not(.contrast):not(.print) #page #content_main .csc-textpic-intext-left-nowrap .csc-textpic-text .csc-teaser-text a:last-of-type,
+.general-gestaltung:not(.contrast):not(.print) #page #mainContentSections .csc-textpic-intext-left-nowrap .csc-textpic-text .csc-teaser-text a:last-of-type {
+  border-bottom: none;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .table-responsive table.table td {
+  color: #94c11c !important;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .table-responsive table.table td a {
+  color: #94c11c !important;
+  border-bottom: 1px dotted #94c11c !important;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .table-responsive table.table td a:hover {
+  color: #000 !important;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .news.listview article:hover time,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .news.listview article:hover p a {
+  color: #94c11c !important;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .news.listview.listview-411 > p:hover {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .news.listview.listview-411 > p:hover a {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-no-bottom-border.layout-topheader,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-info-box.csc-box {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-no-bottom-border.layout-topheader h2,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-info-box.csc-box h2,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-no-bottom-border.layout-topheader p,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-info-box.csc-box p,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-no-bottom-border.layout-topheader a,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-info-box.csc-box a {
+  color: #fff;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #contentquicklinks {
+  background-image: url(/websites/bauhaus_news/flieger_gestaltung.svg);
+  border: 2px solid #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #contentquicklinks header.csc-header,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #contentquicklinks .csc-header h2 {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #contentquicklinks header.csc-header a,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #contentquicklinks .csc-header h2 a {
+  color: #fff;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #contentquicklinks ul.quicklist li a:hover {
+  color: #94c11c;
+  background-image: url(../images/icon_pfeil_weiss.svg);
+  animation: quicklinkListArrow 0.4s forwards;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #contentquicklinks ul.quicklist li a:hover {
+  background-image: url(../images/icon_linkpfeil_gestaltung.svg);
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #quickaccess {
+  border: 2px solid #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #quickaccess header.csc-header,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #quickaccess .csc-header h2 {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #quickaccess #quickaccess-container ul#quickaccess-list li a {
+  background-image: url(../images/icon_pfeil_right_gestaltung.svg);
+  background-size: 12px;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #quickaccess #quickaccess-container ul#quickaccess-list li a:hover {
+  background-image: url(../images/icon_pfeil_right_gestaltung.svg);
+  background-size: 12px;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #quickaccess #quickaccess-container ul#quickaccess-list li.active > a {
+  color: #fff;
+  background-image: url(../images/icon_pfeil_right_gestaltung.svg);
+  background-size: 12px;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #quickaccess #quickaccess-container ul#quickaccess-list li.active > a:hover {
+  background-image: url(../images/icon_pfeil_right_gestaltung.svg);
+  background-size: 12px;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #quickaccess #quickaccess-container ul#quickaccess-list li.quickaccess-item.active.parent > a {
+  background-image: url(../images/icon_pfeil_down_gestaltung.svg);
+  background-size: 12px;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #quickaccess #quickaccess-container ul#quickaccess-list li.quickaccess-item.active.parent > a:hover {
+  animation: none;
+  background-image: url(../images/icon_pfeil_down_gestaltung.svg);
+  background-size: 12px;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #quickaccess #quickaccess-container ul#quickaccess-list > li.quickaccess-item.parent.active > ul > li:not(.parent) > a {
+  background-image: url(../images/icon_pfeil_right_gestaltung.svg);
+  background-size: 12px;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #quickaccess #quickaccess-container ul#quickaccess-list > li.quickaccess-item.parent.active > ul > li:not(.parent) > a:hover {
+  background-image: url(../images/icon_pfeil_right_gestaltung.svg);
+  background-size: 12px;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right #c277037 figure.csc-textpic-image {
+  margin-top: 0px;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-no-bottom-border.layout-topheader,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-info-box.csc-box {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-no-bottom-border.layout-topheader h2,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-info-box.csc-box h2,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-no-bottom-border.layout-topheader p,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-info-box.csc-box p,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-no-bottom-border.layout-topheader a,
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-info-box.csc-box a {
+  color: #fff;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-blank-box[style] h2 {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-blank-box[style] a {
+  border-bottom: 1px dotted #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-blank-box[style] ul li {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-blank-box[style] ul li a {
+  border-bottom: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .content_right .csc-frame.csc-blank-box[style] ul li:hover a {
+  color: #94c11c !important;
+}
+.general-gestaltung:not(.contrast):not(.print) .csc-textpic-above .csc-textpic-text .csc-header h2 a {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .news.news-single.news-single-201 article .stripeBar:before,
+.general-gestaltung:not(.contrast):not(.print) #page .news.listview.listview-201 article .stripeBar:before {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .news.news-single.news-single-201 article .my_datesheet:before,
+.general-gestaltung:not(.contrast):not(.print) #page .news.listview.listview-201 article .my_datesheet:before {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .news.news-single.news-single-201 article .text-wrap h2 a,
+.general-gestaltung:not(.contrast):not(.print) #page .news.listview.listview-201 article .text-wrap h2 a {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .news.news-single.news-single-201 article header h1,
+.general-gestaltung:not(.contrast):not(.print) #page .news.listview.listview-201 article header h1 {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .news.news-single.news-single-441 h1.news_title {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .news-single .news_title {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .ui-accordion h3.ui-accordion-header > span.ui-accordion-header-icon {
+  background-image: url(../images/icon_pfeil_right_gestaltung.svg);
+}
+.general-gestaltung:not(.contrast):not(.print) .ui-accordion h3.ui-accordion-header-active.ui-state-active {
+  border-bottom: none;
+}
+.general-gestaltung:not(.contrast):not(.print) .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active > .csc-default.layout-topheader a,
+.general-gestaltung:not(.contrast):not(.print) .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active > .csc-default.layout-topheader a.csc-content-link,
+.general-gestaltung:not(.contrast):not(.print) .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active > .csc-default.layout-topheader a.mail {
+  color: #000;
+}
+.general-gestaltung:not(.contrast):not(.print) .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active > .csc-default.layout-topheader a:hover,
+.general-gestaltung:not(.contrast):not(.print) .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active > .csc-default.layout-topheader a.csc-content-link:hover,
+.general-gestaltung:not(.contrast):not(.print) .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active > .csc-default.layout-topheader a.mail:hover {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .ui-accordion .ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active ul li:before {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .listview .record01 h2 a,
+.general-gestaltung:not(.contrast):not(.print) #page .listview article h2 a {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .listview .record01 .more a:before,
+.general-gestaltung:not(.contrast):not(.print) #page .listview article .more a:before {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page .listview .record01 .more a:hover,
+.general-gestaltung:not(.contrast):not(.print) #page .listview article .more a:hover {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page.microsite h1#microsite_content_title {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page.microsite ul#microsite-main-list .customer-data {
+  border-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page.microsite ul#microsite-main-list .customer-data:before {
+  border-top: 2px solid #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page.microsite ul#microsite-main-list .customer-data h1 a {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #page.microsite ul#microsite-main-list .faculty-data:before {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section:before,
+.general-gestaltung:not(.contrast):not(.print) #nav-section:after {
+  border-bottom: 2px solid #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item:after {
+  border-bottom: 2px solid #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active.clicked,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item:hover {
+  border-color: #94c11c;
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active.clicked > ul.bare-menu.sublevel:after,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item:hover > ul.bare-menu.sublevel:after {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active.clicked > ul.bare-menu.sublevel > li.flyoutitem:hover > ul.menu-column.level2:after,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item:hover > ul.bare-menu.sublevel > li.flyoutitem:hover > ul.menu-column.level2:after {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active.current,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.current {
+  border: 2px solid #94c11c !important;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active.current:after,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active:after,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.current:after {
+  border-bottom: 2px solid #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active.current > a,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active > a,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.current > a {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active.current:hover,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active:hover,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.current:hover {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active.current:hover:after,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active:hover:after,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.current:hover:after {
+  border-bottom: 2px solid #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active.current:hover > a,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active:hover > a,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.current:hover > a {
+  color: #fff;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active.current:hover > a:before,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.active:hover > a:before,
+.general-gestaltung:not(.contrast):not(.print) #nav-section #micrositeMenu > .menu-item.current:hover > a:before {
+  background: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) #nav-section .micrositeMegaMenuBackground,
+.general-gestaltung:not(.contrast):not(.print) #nav-section .micrositeMegaMenuBackgroundStretcher,
+.general-gestaltung:not(.contrast):not(.print) #nav-section .micrositeMegaMenuBackground:after {
+  background-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .csc-default.csc-teaser.layout-bottomheader .teaser-box a article,
+.general-gestaltung:not(.contrast):not(.print) .csc-default.csc-teaser.layout-topheader .teaser-box a article {
+  border-color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .csc-default.csc-teaser.layout-bottomheader .teaser-box a article header h2,
+.general-gestaltung:not(.contrast):not(.print) .csc-default.csc-teaser.layout-topheader .teaser-box a article header h2 {
+  color: #94c11c;
+}
+.general-gestaltung:not(.contrast):not(.print) .csc-default.csc-teaser.layout-bottomheader .teaser-box a article:after,
+.general-gestaltung:not(.contrast):not(.print) .csc-default.csc-teaser.layout-topheader .teaser-box a article:after {
+  background-image: url(../images/icon_linkpfeil_gestaltung.svg);
+}
+@media only screen and (min-width: 150px) and (max-width: 480px) {
+  .general-gestaltung:not(.contrast):not(.print) #page .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav li.ui-state-default {
+    border-color: #94c11c;
+  }
+  .general-gestaltung:not(.contrast):not(.print) #page .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav li.ui-state-default:last-child a {
+    border-bottom: 2px solid #94c11c;
+  }
+  .general-gestaltung:not(.contrast):not(.print) #page .tx-jfmulticontent-pi1 .ui-tabs ul.ui-tabs-nav li.ui-state-default.ui-state-active {
+    background-color: #94c11c;
+  }
+}
+/*# sourceMappingURL=tint_gestaltung.css.map */

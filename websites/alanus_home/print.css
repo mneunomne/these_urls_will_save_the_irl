@@ -1,0 +1,88 @@
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+header,
+header.fixed,
+.back.button,
+#layerslider,
+footer,
+.breadcrumb,
+.back-button,
+p:empty,
+.teaser,
+.m-desktop,
+.icon-set {
+	display: none !important;
+}
+
+figure {
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: underline;
+	color: #000;
+}
+
+div {
+	height: auto !important;
+	background: none !important;
+}
+
+h1 {
+	font-size: 45px;
+	line-height: 50px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 33px;
+	font-weight: normal;
+	color: #000;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: normal;
+	color: #000;
+}
+
+a.download-link,
+a.link-teaser,
+.teaser-box {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	position: relative;
+	padding-bottom: 10px;
+	-webkit-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition: all 300ms;
+	word-break: break-word;
+}
+
+div.image-header.headline h1 span {
+	font-size: 20px;
+	margin-top: 0;
+	display: block;
+	margin-top: 20px;
+}
+
+div.image-header.headline.left h1, 
+div.image-header.headline.right h1, 
+div.image-header.headline.center h1 {
+	font-size: 27px;
+	line-height: 30px;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}

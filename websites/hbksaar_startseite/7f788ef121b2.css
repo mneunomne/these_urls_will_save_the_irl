@@ -1,0 +1,160 @@
+/** clearing **/
+.clear {clear: both; font-size: 0.1px; height: 0.1px; line-height: 0.1px; float: none; display: table;}
+
+/** block grid **/
+.autogrid, .autogrid:before,.autogrid:after {-moz-box-sizing: border-box; box-sizing:border-box;}
+.autogrid {padding-left: 1%; padding-right: 1%; position: relative; display: block; float: left;overflow: hidden;}
+
+/** block grid wrapper **/
+.autogrid_wrapper {margin-left: -1%; margin-right: -1%;}
+
+/** non block **/
+.autogrid:not(.block) {padding-left: 0; padding-right: 0; margin-left: 1%; margin-right: 1%;}
+
+/* .block.autogrid.first, .block.autogrid:first-child 	{margin-left: -1%;} */
+/* .block.autogrid.last, .block.autogrid:last-child 	{margin-right: -1%;} */
+
+/** Non block grid **/
+.full			{width: 100%;}
+.one_half 		{width: 48%;}
+.one_third 		{width: 31.3333%;}
+.one_fourth		{width: 23%;}	
+.one_fifth		{width: 18%;}	
+.one_sixth		{width: 14.6667%;}
+
+/** Block grid **/
+.block.full			{width: 100%;}
+.block.one_half 	{width: 50%;}
+.block.one_third 	{width: 33.3333%;}
+.block.one_fourth	{width: 25%;}	
+.block.one_fifth	{width: 20%;}	
+.block.one_sixth	{width: 16.6667%;}
+
+.block.two_third	{width: 66.6667%;}
+.block.two_fourth	{width: 50%;}
+.block.three_fourth	{width: 75%;}
+.block.two_fifth	{width: 40%;}
+.block.three_fifth	{width: 60%;}
+.block.four_fifth	{width: 80%;}
+.block.two_sixth	{width: 33.3333%;}
+.block.three_sixth	{width: 49.9999%;}
+.block.four_sixth	{width: 66.6667%;}
+.block.five_sixth	{width: 83.3333%;}
+
+/** Non block grid system **/
+/** odd split: 2 elements per row **/
+.n2:not(.block).one_third		{width: 32%;}
+.n2:not(.block).two_third		{width: 64%;}
+.n2:not(.block).one_fourth		{width: 24%;}
+.n2:not(.block).two_fourth		{width: 48%;}
+.n2:not(.block).three_fourth	{width: 72%;}
+.n2:not(.block).one_fifth		{width: 19.2%;}
+.n2:not(.block).two_fifth		{width: 38.4%;}
+.n2:not(.block).three_fifth		{width: 57.6%;}
+.n2:not(.block).four_fifth		{width: 76.8%;}
+.n2:not(.block).one_sixth		{width: 16%;}
+.n2:not(.block).two_sixth		{width: 32%;}
+.n2:not(.block).three_sixth		{width: 48%;}
+.n2:not(.block).four_sixth		{width: 64%;}
+.n2:not(.block).five_sixth		{width: 80%;}
+
+/** odd split: 3 elements per row **/
+.n3:not(.block).one_half		{width: 47%;}
+.n3:not(.block).two_third		{width: 62.6667%;}
+.n3:not(.block).one_fourth		{width: 23.5%;}
+.n3:not(.block).two_fourth		{width: 47%;}
+.n3:not(.block).three_fourth	{width: 70.5%;}
+.n3:not(.block).one_fifth		{width: 18.8%;}
+.n3:not(.block).two_fifth		{width: 37.6%;}
+.n3:not(.block).three_fifth		{width: 56.4%;}
+.n3:not(.block).four_fifth		{width: 75.2%;}
+.n3:not(.block).one_sixth		{width: 15.6667%;}
+.n3:not(.block).two_sixth		{width: 31.3333%;}
+.n3:not(.block).three_sixth		{width: 47%;}
+.n3:not(.block).four_sixth		{width: 62.6667%;}
+.n3:not(.block).five_sixth		{width: 78.3333%;}
+
+/** odd split: 4 elements per row **/
+.n4:not(.block).one_half		{width: 46%;}
+.n4:not(.block).one_third		{width: 30.6667%;}
+.n4:not(.block).two_third		{width: 61.3333%;}
+.n4:not(.block).two_fourth		{width: 46%;}
+.n4:not(.block).three_fourth	{width: 69%;}
+.n4:not(.block).one_fifth		{width: 18.4%;}
+.n4:not(.block).two_fifth		{width: 36.8%;}
+.n4:not(.block).three_fifth		{width: 55.2%;}
+.n4:not(.block).four_fifth		{width: 73.6%;}
+.n4:not(.block).one_sixth		{width: 15.3333%;}
+.n4:not(.block).two_sixth		{width: 30.6667%;}
+.n4:not(.block).three_sixth		{width: 46%;}
+.n4:not(.block).four_sixth		{width: 61.3333%;}
+.n4:not(.block).five_sixth		{width: 76.6667%;}
+
+/** odd split: 5 elements per row **/
+.n5:not(.block).one_half		{width: 45%;}
+.n5:not(.block).one_third		{width: 30%;}
+.n5:not(.block).two_third		{width: 60%;}
+.n5:not(.block).one_fourth		{width: 22.5%;}
+.n5:not(.block).two_fourth		{width: 45%;}
+.n5:not(.block).three_fourth	{width: 67.5%;}
+.n5:not(.block).two_fifth		{width: 36%;}
+.n5:not(.block).three_fifth		{width: 54%;}
+.n5:not(.block).four_fifth		{width: 72%;}
+.n5:not(.block).one_sixth		{width: 15%;}
+.n5:not(.block).two_sixth		{width: 30%;}
+.n5:not(.block).three_sixth		{width: 45%;}
+.n5:not(.block).four_sixth		{width: 60%;}
+.n5:not(.block).five_sixth		{width: 75%;}
+
+/** odd split: 6 elements per row **/
+.n6:not(.block).one_half		{width: 44%;}
+.n6:not(.block).one_third		{width: 29.3333%;}
+.n6:not(.block).two_third		{width: 58.6667%;}
+.n6:not(.block).one_fourth		{width: 22%;}
+.n6:not(.block).two_fourth		{width: 44%;}
+.n6:not(.block).three_fourth	{width: 66%;}
+.n6:not(.block).one_fifth		{width: 17.6%;}
+.n6:not(.block).two_fifth		{width: 35.2%;}
+.n6:not(.block).three_fifth		{width: 52.8%;}
+.n6:not(.block).four_fifth		{width: 70.4%;}
+.n6:not(.block).two_sixth		{width: 29.3333%;}
+.n6:not(.block).three_sixth		{width: 44%;}
+.n6:not(.block).four_sixth		{width: 58.6667%;}
+.n6:not(.block).five_sixth		{width: 73.3333%;}
+
+.border-inner {border-left: 1px solid #ddd;}
+.border-inner.first, .border-inner:first-child {border-left: 0;}
+.border-inner.last, .border-inner:last-child {border-right: 0;}
+/** optical correction **/
+/* .autogrid.block.border-inner {margin-left: -0.75%; padding-left: 1.75%;} */
+
+/** grid options **/
+.autogrid.break {clear:left; margin-left: 0;}
+.autogrid.full.break {width: 100%;clear:both;float: none;padding-left: 0;padding-right: 0;}
+
+/** same height **/
+.autogrid.same-height {display: table-cell; float: none; vertical-align: top;}
+
+/** flexible same height **/
+.autogrid_wrapper.same-height, .autogrid_wrapper .inner.same-height {display: flex; display: -webkit-flex; display: -ms-flexbox; height: 100%; clear: both;}
+
+/** autogrid full **/
+.autogrid.full {padding-left: 0; padding-right: 0;}
+.autogrid_wrapper .autogrid.full {padding-left: 1%; padding-right: 1%;}
+
+/** no gutter **/
+.autogrid_wrapper.no_gutter {margin-left: 0; margin-right: 0;}
+.autogrid.no_gutter {padding-left: 0; padding-right: 0;}
+
+/** tablets **/
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+	.autogrid.adjust_mobile {width: 50% !important}
+}
+
+/** phones **/
+@media only screen and (max-width: 767px) {
+	.autogrid {width: 100%!important;}
+	.autogrid.same-height, .autogrid_wrapper.same-height, .autogrid_wrapper .inner.same-height {display: block;}
+	.border-inner {border-left: 0;}
+	.ce_autogridSpacer {margin: 0!important; line-height: 0!important;}
+}

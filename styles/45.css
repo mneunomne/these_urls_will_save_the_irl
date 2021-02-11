@@ -1,0 +1,27 @@
+#el-45 a {
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 100%;
+  display: block;
+  padding: 10px 5px 0 5px;
+  margin-top: 7px;
+  padding-left: 1.66667em;
+  color: #ed1c29;
+  position: relative;
+  left: 0px;
+}
+#el-45 a:before {
+  font-size: 1.4em;
+  content: "\e60b";
+  font-family: 'icons';
+  position: absolute;
+  display: block;
+  left: 0;
+}

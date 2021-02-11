@@ -1,0 +1,283 @@
+/******************************
+*
+*  RoyalSlider Default Skin 
+*
+*    1. Arrows 
+*    2. Bullets
+*    3. Thumbnails
+*    4. Tabs
+*    5. Fullscreen button
+*    6. Play/close video button
+*    7. Preloader
+*    8. Caption
+*    
+*  Sprite: 'controls-sprite.png'
+*  Feel free to edit anything
+*  If you don't some part - just delete it
+* 
+******************************/
+
+
+/* Background */
+.rshks,
+.rshks .rsOverflow,
+.rshks .rsSlide,
+.rshks .rsVideoFrameHolder,
+.rshks .rsThumbs {
+	/* background: #eee; */
+	background: #eee;
+	color: #222;
+}
+
+
+/***************
+*
+*  1. Arrows
+*
+****************/
+
+.rshks .rsArrow {
+	margin-top: 33.3%;
+	width: 44px;
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	z-index: 21;
+}
+.rshks.rsVer .rsArrow {
+	width: 100%;
+	height: 44px;
+	
+}
+.rshks.rsVer .rsArrowLeft { top: 0; left: 0; }
+.rshks.rsVer .rsArrowRight { bottom: 0;  left: 0; }
+
+.rshks.rsHor .rsArrowLeft { left: 0; top: 0; }
+.rshks.rsHor .rsArrowRight { right: 0; top:0; }
+
+.rshks .rsArrowIcn {		
+	width: 32px;
+	height: 32px;
+	top: 50%;
+	left: 50%;
+	margin-top:-16px;	
+	margin-left: -16px;
+
+	position: absolute;	
+	cursor: pointer;	
+	background: url('controls-sprite.png');
+
+	background-color: #000;
+	background-color: rgba(255,255,255, .75);
+	*background-color: #000;
+	
+	border-radius: 2px;
+}
+.rshks .rsArrowIcn:hover {
+	background-color: rgba(255,255,255,0.9);
+}
+
+.rshks.rsHor .rsArrowLeft .rsArrowIcn { background-position: -64px -32px; }
+.rshks.rsHor .rsArrowRight .rsArrowIcn { background-position: -64px -64px; }
+
+.rshks.rsVer .rsArrowLeft .rsArrowIcn { background-position: -96px -32px; }
+.rshks.rsVer .rsArrowRight .rsArrowIcn { background-position: -96px -64px; }
+
+.rshks .rsArrowDisabled .rsArrowIcn { opacity: .2; filter: alpha(opacity=20);  *display: none; }
+
+
+/***************
+*
+*  2. Bullets
+*
+****************/
+
+.rshks .rsBullets {
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 35;
+	left: 0;
+	bottom: 5px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+
+	text-align: right;
+	line-height: 18px;
+	overflow: hidden;
+	padding-right: 10px;
+}
+.rshks .rsBullet {
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	*display:inline; 
+	*zoom:1;
+	cursor: pointer;
+	margin-left: 12px;
+}
+.rshks .rsBullet span {
+	box-sizing: border-box;
+	display: block;
+	width: 18px;
+	height: 18px;
+	border-radius: 15%;
+	background: #bbb;
+}
+.rshks .rsBullet.rsNavSelected span {
+	background-color: #000;
+	border: 1px solid #bbb;
+}
+
+/***************
+*
+*  5. Fullscreen button
+*
+****************/
+
+.rshks .rsFullscreenBtn {
+	right: 0;
+	top: 0;
+	width: 44px;
+	height: 44px;
+	z-index: 22;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	
+}
+.rshks .rsFullscreenIcn {
+	display: block;
+	margin: 6px;
+	width: 32px;
+	height: 32px;
+
+	background: url('controls-sprite.png') 0 0;
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.75);
+	*background-color: #fff;
+	border-radius: 2px;
+
+}
+.rshks .rsFullscreenIcn:hover {
+	background-color: rgba(255,255,255,0.9);
+}
+.rshks.rsFullscreen .rsFullscreenIcn {
+	background-position: -32px 0;
+}
+
+
+
+
+
+/***************
+*
+*  6. Play/close video button
+*
+****************/
+
+.rshks .rsPlayBtn {
+	-webkit-tap-highlight-color:rgba(0,0,0,0.3);
+	width:64px;
+	height:64px;
+	margin-left:-32px;
+	margin-top:-32px;
+	cursor: pointer;
+}
+.rshks .rsPlayBtnIcon {
+	width:64px;
+	display:block;
+	height:64px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	transition: .3s;
+
+	background:url(controls-sprite.png) no-repeat 0 -32px;
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.75);
+	*background-color: #fff;
+}
+.rshks .rsPlayBtn:hover .rsPlayBtnIcon {
+	background-color: rgba(255,255,255,0.9);
+}
+.rshks .rsBtnCenterer {
+	position:absolute;
+	left:50%;
+	top:50%;
+}
+.rshks .rsCloseVideoBtn {
+	right: 0;
+	top: 0;
+	width: 44px;
+	height: 44px;
+	z-index: 500;
+	position: absolute;
+	cursor: pointer;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+	
+}
+.rshks .rsCloseVideoBtn.rsiOSBtn {
+	top: -38px;
+	right: -6px;
+}
+
+.rshks .rsCloseVideoIcn {
+	margin: 6px;
+	width: 32px;
+	height: 32px;
+	background: url('controls-sprite.png') -64px 0;
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.75);
+	*background-color: #fff;
+}
+.rshks .rsCloseVideoIcn:hover {
+	background-color: rgba(255,255,255,0.9);
+}
+
+
+
+/***************
+*
+*  7. Preloader
+*
+****************/
+
+.rshks .rsPreloader {
+	width:20px;
+	height:20px;
+	background-image:url(../preloaders/preloader-white.gif);
+
+	left:50%;
+	top:50%;
+	margin-left:-10px;
+	margin-top:-10px;	
+}
+
+
+
+
+/***************
+*
+*  8. Global caption
+*
+****************/
+.rshks .rsGCaption {
+	position: absolute;
+	float: none;
+	bottom: 6px;
+	left: 6px;
+	text-align: left;
+
+	background: #fff;
+    background: rgba(255,255,255, 0.75);
+
+	color: #000;
+	padding: 2px 8px;
+	width: auto;
+	font-size: 12px;
+	border-radius: 2px;
+}

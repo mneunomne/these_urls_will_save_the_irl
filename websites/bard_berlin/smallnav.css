@@ -1,0 +1,130 @@
+/*
+Item: CSS3 Full Responsive Dropdown Menu
+Author: https://codecanyon.net/user/JN0iZzze
+Version: 1.2
+*/
+
+/*******************************************/
+/***            Menu Container           ***/
+/*******************************************/
+
+#smallmenu { position: absolute; right: 0%; top: 0px; width: 100%; height: 42px; display: block; margin: 0px; padding: 0px; background: #e6e6e6; text-align: right; font-size:0.9em; text-transform: uppercase; color: #333; float: right; }
+
+.smallmenu_container { position: relative; position: relative; right: 0; display: block; height: 42px; width: 30%; clear: both; float: right;margin: 0px; padding: 5px;  }
+.smallmenu_container > ul { margin: 0; height: 40px; width: 45%; overflow: visible; float: right; list-style-type: none; }
+.smallmenu_container > ul > li { position: relative; display: inline; list-style-type: none; padding: 5px 10px; margin: 0px; display: block; color: #333; text-decoration: none; font-size: 0.9em; font-family: "Source Sans Pro", "SourceSans", Helvetica, Arial, sans-serif; float: left;  }
+
+.smallmenu_container .menu_dropdown_block { visibility: hidden; position: absolute; margin: 0 0 0 -10px; background: #e6e6e6; color: #333; width: 150px;}
+
+
+/* -- Lori here's how it should be because the link is not on the li but within the li. The dropdown blosk should only display when hovering over the link
+.smallmenu_container > ul > li > a:hover > .menu_dropdown_block{ overflow: visible; opacity: 1; margin: 0; z-index: 1000; background: yellow; z-index: 3000;  } */
+
+.smallmenu_container > ul > li > a:link, .smallmenu_container > ul > li > a:visited { color: #c00f0f; text-decoration: none; }
+.smallmenu_container > ul > li > a:hover, .smallmenu_container > ul > li > a:active { color: #c00f0f; text-decoration: underline; }
+
+.smallmenu_container > ul > li.topbutton { padding: 0px 10px; margin: 5px 10px 5px 20px; background: #c00f0f; color: #fff; border-radius: 5px; }
+.smallmenu_container > ul > li.topbutton > a:link, .smallmenu_container > ul > li.topbutton a:visited { color: #fff; text-decoration: none; }
+.smallmenu_container > ul > li.topbutton a:hover, .smallmenu_container > ul > li.topbutton a:active { color: #fff; text-decoration: underline; }
+
+
+
+.mobile_small-collapser { display: block; height: 0.9em; padding: 12px 5px; color: #fff; text-shadow: 0px 1px 2px rgba(0,0,0,0.25); font-size: 16px; line-height: 22px; font-family: "Source Sans Pro", "SourceSans", Helvetica, Arial, sans-serif; box-shadow: inset 0 -1px 1px rgba(0,0,0,0.2); }
+.mobile_small-collapser:before { content: '\2261'; display: block; float: left; margin: -1px 8px 0 0; font-size: 30px; }
+#hidden_small-menu_collapser { display: none; }
+#hidden_small-menu_collapser:checked + ul { height: auto; min-height:40px; max-height:2999px; }
+.smallmenu_container > ul.collapsed { height: auto; min-height:40px; max-height:2999px; }
+
+
+ul.menu_smallmenu_block { list-type: none; min-width: 105px; text-align: left;  }
+ul.menu_smallmenu_block { list-style-type: none; padding-left: 0px; margin-left: 10px; }
+ul.menu_smallmenu_block > li { list-style-type: none; padding-left: 0px; margin-left: 0px; }
+ul.menu_smallmenu_block > li > .menu_smallmenu_block { position: absolute; top: 0; height: auto; min-width: 105px; left: 100%; background: #fff; }
+.smallmenu_container .menu_dropdown_block > ul.menu_smallmenu_block > li > ul.menu_smallmenu_block { margin-left: 0; }
+ul.menu_smallmenu_block > li > .menu_smallmenu_block a { padding-left: 20px !important; }
+
+.smallmenu_container > ul > li:hover > .menu_dropdown_block { visibility: visible; height: auto; min-height:40px; max-height:3000px; z-index: 3000; }
+
+@media only screen and (min-width: 1001px)  {
+
+header #content nav .mobile_small-collapser { display: none; }
+.mobile_small-collapser { display: none; }
+
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1210px) {
+	// Snap to Full Width Nav
+header #content nav .mobile_small-collapser { display: none; }
+.mobile_small-collapser { display: none; }
+
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
+	//LAPTOP styles go here
+
+
+
+
+}
+
+/* ---------------------------- TABLET ONLY  STYLES ------------------------ */
+
+@media only screen and (min-width: 651px) and (max-width: 1200px) {
+	//TABLET styles go here
+	
+header #content nav .mobile_small-collapser { display: none; }
+.mobile_small-collapser { display: none; }
+#smallmenu { position: absolute; right: 0%; top: 0px; width: 60%; height: 42px; display: block; margin: 0px; padding: 0px; background: #c00f0f; text-align: right; font-size:0.9em; text-transform: uppercase; color: #FFF; float: right;  }
+.smallmenu_container { height: 40px; width: 100%; padding: 0; margin: 0; z-index: 1000; background: #c00f0f; right: 0; float:right;}
+.smallmenu_container > ul { transition: all 100ms linear; -moz-transition: all 100ms linear; -o-transition: all 100ms linear; -webkit-transition: all 100ms linear; height: 40px; width: 100%;  background: none; overflow: visible; margin: 0 auto; float:right; }
+.smallmenu_container > ul > li { position: static; float: right; background: inherit; }
+.smallmenu_container > ul > li > a { padding: 3px; margin: 0px;box-shadow: none; border: none;  font-size: 12px;  }
+.smallmenu_container > ul > li:hover { margin-left: 0px; background: #333; }
+.smallmenu_container > ul > li:hover > a { padding-left: 3px; background: #333; height: 30px;}
+.smallmenu_container .menu_dropdown_block { position: absolute; opacity: 0; }
+.smallmenu_container > ul > li:hover > .menu_dropdown_block { overflow: visible; opacity: 1; margin-left: 0; }
+.smallmenu_container > ul > li.right { float: right; }
+	
+.smallmenu_container > ul > li > a:link, .smallmenu_container > ul > li > a:visited { color: #FFF; text-decoration: none; }
+.smallmenu_container > ul > li > a:hover, .smallmenu_container > ul > li > a:active { color: #FFF; text-decoration: underline; }
+
+	
+.smallmenu_container .menu_dropdown_block .column { float: left; }
+.smallmenu_container .menu_dropdown_block .column.bordered {  border: none; }
+ul.menu_smallmenu_block { list-type: none; min-width: 175px; text-align: left; }
+ul.menu_smallmenu_block > li { }
+ul.menu_smallmenu_block > li > .menu_smallmenu_block { position: absolute; top: 0; height: auto; min-width: 175px; left: 100%; box-shadow: 1px 1px 3px rgba(0,0,0,0.2), inset 1px 0 0 rgba(0,0,0,0.1); background: #fff; }
+.smallmenu_container .menu_dropdown_block > ul.menu_smallmenu_block > li > ul.menu_smallmenu_block { margin-left: 0; }
+ul.menu_smallmenu_block > li > .menu_smallmenu_block a { padding-left: 20px !important; }
+ul.menu_smallmenu_block.right-align li a { text-align: right; }
+ul.menu_smallmenu_block.right-align li.has-dropdown > a:after { content: '\2039'; right: auto; left: 10px; }
+ul.menu_smallmenu_block.right-align li a .fa { margin-right: 0; margin-left: 6px; }
+ul.menu_smallmenu_block.right-align > li .menu_smallmenu_block { left: auto; right: 100%; box-shadow: 2px 2px 0 rgba(0,0,0,0.1); }
+ul.menu_smallmenu_block.right-align li.has-dropdown > a:after { content: '\2039'; right: auto; left: 10px; }
+ul.menu_smallmenu_block > li.has-dropdown:hover > .menu_smallmenu_block { color:#fff; background: #FFF;}
+.smallmenu_container .menu_dropdown_block.half_width { width: 70%; right: 0px; }
+li.menu_smallmenu a:hover { color:#fff; background:#FFF; }
+
+.smallmenu_container > ul > li.topbutton { padding: 0px 10px; margin: 4px 10px; background: #222; color: #fff; border-radius: 5px; }
+.smallmenu_container > ul > li.topbutton > a:link, .smallmenu_container > ul > li.topbutton a:visited { color: #fff; text-decoration: none; }
+.smallmenu_container > ul > li.topbutton a:hover, .smallmenu_container > ul > li.topbutton a:active { color: #fff; text-decoration: underline; }
+	
+}
+/***************/
+
+.smallmenu_container.topfixed { position: fixed; width: 100%; top: 0px; left: 0px; border-radius: 0; }
+.smallmenu_container.centered > ul { float: none; margin: 0 auto; max-width: 1000px;radius: 0; }
+.smallmenu_container.centered > ul { float: none; margin: 0 auto; max-width: 1000px; }
+
+/* ---------------------------- MOBILE ONLY  STYLES ------------------------ */
+ 
+@media only screen and (min-width: 200px) and (max-width: 650px)  {
+	/*MOBILE styles go here*/
+	header #content nav .mobile_small-collapser { display: none; }
+.mobile_small-collapser { display: none; }
+	
+	.smallmenu_container > ul > li > a#search { display:none }
+	.smallmenu_container > ul > li > a#people { display:none }
+	.smallmenu_container > ul > li > a#infofor { display:none }
+}

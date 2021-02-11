@@ -1,0 +1,9 @@
+.util{
+	position:fixed;
+	background:#000;
+	color:#fff;
+	padding:0.25em;
+}
+.util a{
+	color:#fff;
+}

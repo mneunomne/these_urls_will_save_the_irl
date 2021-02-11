@@ -1,0 +1,8 @@
+/* addon: imagecycle */
+
+
+.imagecycle-container .csc-textpic-imagewrap .csc-textpic-image + .csc-textpic-image,
+.imagecycle-container .csc-textpic-imagewrap .csc-textpic-imagecolumn + .csc-textpic-imagecolumn,
+.imagecycle-container .csc-textpic-imagewrap .csc-textpic-imagerow + .csc-textpic-imagerow {
+  display: none;
+}

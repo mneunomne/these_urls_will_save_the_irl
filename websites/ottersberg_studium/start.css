@@ -1,0 +1,25 @@
+.textInlay { position: absolute; top: auto; bottom: 40px; left: 535px; width: 390px; }
+.textInlay .headTag { background: black; border: none; color: white; margin-bottom: -8px; }
+.textInlay .overText { clear: left; background: url(/static/images/sub-nav.png); padding: 3em 10px; font-size: 1.2em; width: 370px; height: 80px; cursor: pointer; }
+.textInlay .overText h1 { margin: 0.2em 0; font: normal 2.6em/1.2em DIN-Web,helvetica,arial,verdana,sans serif; }
+
+#studyCont { margin-top: 2em; }
+#studyCont .headTag { background: #f6a400; color: #fff; }
+#studyRow { display: flex; flex-wrap: wrap; justify-content: space-between;  padding: 2em 0; width: 100%; }
+#studyRow .studyEntry { border: 1px dashed black; width: 300px; padding: 10px; cursor: pointer; box-sizing: border-box; margin-bottom: 18px; }
+.studyEntry h2 { margin: 0; margin-bottom: 0.1em; font: normal 1.6em/1.2em DIN-Web-bold,helvetica,arial,verdana,sans serif; }
+.studyEntry h3 { margin: 0; margin-bottom: 0.1em; font: normal 1.6em/1.2em DIN-Web,helvetica,arial,verdana,sans serif; }
+.studyEntry .sub { font-size: 1.2em; line-height: 1.5em; }
+
+#infoCont .headTag { background: #555; color: #fff; }
+#infoRow { display: flex; flex-wrap: no-wrap; justify-content: space-between;  padding: 2em 0; width: 100%; }
+#infoRow .infoEntry { box-sizing: border-box; max-width: 220px; font-size: 1.4em; line-height: 1.2em; }
+#infoRow .infoEntry h2 { font-size: 1.1em; line-height: 1.2em; margin-bottom: 0.4em; }
+
+#btLinkContainer { clear: left; text-align: left; padding-left: 18px; border-bottom: 3px solid #707070; }
+#btLink { display: inline-block; color: white; padding: 0.3em; font-size: 1.2em; line-height: 1.5em; cursor: pointer; padding-right: 14px; border-right: 3px solid #707070; }
+.showCol { background: #707070 url(/static/images/icon-show.gif) right center no-repeat; }
+.showCol:hover { background: #707070 url(/static/images/icon-show-over.gif) right center no-repeat; }
+.hideCol { background: #707070 url(/static/images/icon-hide.gif) right center no-repeat; }
+.hideCol:hover { background: #707070 url(/static/images/icon-hide-over.gif) right center no-repeat; }
+#uip { position: absolute; top: 24px; right: -24px; }

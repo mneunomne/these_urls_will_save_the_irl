@@ -1,0 +1,196 @@
+.tx-buwvimeo-player > div {
+  position: relative;
+}
+.tx-buwvimeo-player figure,
+.tx-buwvimeo-player div.text,
+.tx-buwvimeo-player div.description,
+.tx-buwvimeo-player .has-no-header .control,
+.tx-buwvimeo-player .activate-actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.tx-buwvimeo-player figure {
+  height: 100%;
+  overflow-y: hidden;
+}
+.tx-buwvimeo-player figure img {
+  height: auto;
+  margin: 0;
+  opacity: 1;
+  width: 100%;
+}
+.tx-buwvimeo-player div.text {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 100%;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+.tx-buwvimeo-player:hover div.text {
+  background-color: transparent;
+}
+.tx-buwvimeo-player header {
+  padding: 1em;
+}
+.tx-buwvimeo-player header h1,
+.tx-buwvimeo-player header h2 {
+  background-color: rgba(23, 35, 34, 0.5);
+  color: #fff;
+  display: inline-block;
+  letter-spacing: normal;
+  line-height: normal;
+  margin: 0 0 2px;
+  padding: 5px;
+  text-transform: none;
+}
+.tx-buwvimeo-player header h1 a,
+.tx-buwvimeo-player header h2 a {
+  letter-spacing: normal;
+}
+.tx-buwvimeo-player header h1 a:link,
+.tx-buwvimeo-player header h2 a:link,
+.tx-buwvimeo-player header h1 a:visited,
+.tx-buwvimeo-player header h2 a:visited {
+  text-decoration: none;
+}
+.tx-buwvimeo-player header h1 {
+  font-size: 18px;
+}
+.tx-buwvimeo-player header h2 {
+  font-size: 12px;
+  font-weight: normal;
+}
+.tx-buwvimeo-player div.control {
+  padding: 1em;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+.tx-buwvimeo-player div.control button {
+  background: rgba(23, 35, 34, 0.25) no-repeat scroll center;
+  background-size: cover;
+  border: none;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 64px;
+  padding: 0;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  width: 64px;
+}
+.tx-buwvimeo-player div.control .play button {
+  background-image: url('../Icons/Play.svg');
+}
+.tx-buwvimeo-player div.control .unlock {
+  margin-top: 16px;
+}
+.tx-buwvimeo-player div.control .unlock button {
+  background-image: url('../Icons/Unlock.svg');
+}
+.tx-buwvimeo-player div.control p {
+  color: #fff;
+  margin: 0 0 0 85px;
+  max-width: 450px;
+  padding: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.tx-buwvimeo-player div.control p span {
+  display: inline-block;
+  font-size: 11px;
+  line-height: 1.3;
+}
+.tx-buwvimeo-player div.control:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.tx-buwvimeo-player div.control:hover button {
+  background-color: transparent;
+}
+.tx-buwvimeo-player div.control:hover p {
+  opacity: 1;
+}
+.tx-buwvimeo-player div.description {
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  max-height: 40px;
+  overflow-y: hidden;
+  padding: 1em;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  top: auto;
+}
+.tx-buwvimeo-player div.description:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  max-height: 90%;
+  overflow-y: auto;
+}
+.tx-buwvimeo-player div.description > p {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.tx-buwvimeo-player div.description > p.duration {
+  width: 5em;
+}
+.tx-buwvimeo-player div.description > p.description {
+  width: calc(100% - 5em);
+}
+.tx-buwvimeo-player.size-m .has-header div.control button,
+.tx-buwvimeo-player.size-s .has-header div.control button,
+.tx-buwvimeo-player.size-xs div.control button {
+  height: 48px;
+  width: 48px;
+}
+.tx-buwvimeo-player.size-m .has-header div.control p,
+.tx-buwvimeo-player.size-s .has-header div.control p,
+.tx-buwvimeo-player.size-xs div.control p {
+  font-size: 11px;
+  line-height: 1.1;
+  margin-left: 64px;
+}
+.tx-buwvimeo-player.size-m div.description > p,
+.tx-buwvimeo-player.size-s div.description > p {
+  font-size: 12px;
+}
+.tx-buwvimeo-player.size-s div.control,
+.tx-buwvimeo-player.size-xs div.control {
+  padding: 10%;
+}
+.tx-buwvimeo-player.size-s div.control .unlock,
+.tx-buwvimeo-player.size-xs div.control .unlock {
+  margin-top: 20px;
+}
+.tx-buwvimeo-player.size-xs header,
+.tx-buwvimeo-player.size-xs div.description {
+  display: none;
+}
+.tx-buwvimeo-player .has-no-header div.control,
+.tx-buwvimeo-player.size-xs div.control {
+  height: 100%;
+}
+.tx-buwvimeo-player .activate-actions {
+  height: 100%;
+}
+.tx-buwvimeo-player:hover .activate-actions {
+  height: 0;
+}
+.tx-buwvimeo-player a:link,
+.tx-buwvimeo-player a:visited {
+  color: #fff;
+}
+.tx-buwvimeo-player a:focus,
+.tx-buwvimeo-player a:hover,
+.tx-buwvimeo-player a:active {
+  color: #888;
+}
+.tx-buwvimeo-player .clearfix::before,
+.tx-buwvimeo-player .clearfix::after {
+  content: '';
+  display: table;
+}
+.tx-buwvimeo-player .clearfix::after {
+  clear: both;
+}

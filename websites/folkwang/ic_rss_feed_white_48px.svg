@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_rss_feed_white_48px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_rss_feed_white_48px" transform="translate(-4.000000, -4.000000)">
+            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+            <circle id="Oval" fill="#FFFFFF" cx="6.18" cy="17.82" r="2.18"></circle>
+            <path d="M4,4.44 L4,7.27 C11.03,7.27 16.73,12.97 16.73,20 L19.56,20 C19.56,11.41 12.59,4.44 4,4.44 L4,4.44 Z M4,10.1 L4,12.93 C7.9,12.93 11.07,16.1 11.07,20 L13.9,20 C13.9,14.53 9.47,10.1 4,10.1 L4,10.1 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

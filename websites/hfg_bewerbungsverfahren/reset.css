@@ -1,0 +1,117 @@
+html {
+	box-sizing: border-box;
+}
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+
+
+/* basic settings */
+
+html{
+	font-size:16px;
+}
+body{
+	font-size:1em;
+	background:#fff;
+	color:#000;
+	font-style: normal;
+	font-weight: normal;
+	vertical-align:baseline;
+}
+
+/* reset */
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+menu,ul,ol,dl,dt,dd{
+	margin:0em;
+	padding:0em;
+}
+li{
+	margin:0em;
+	padding:0em;
+	list-style-type:none;
+	clear:both;
+}
+table{
+	width:100%;
+}
+td,th{
+	font-weight:normal;
+	text-align:left;
+	vertical-align:top;
+}
+p{
+	margin:0em;
+}
+blockquote{
+	margin:0em;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0em;
+	font-size:1em;
+	/*font-weight:normal;*/
+}
+figure{
+	margin:0;
+}
+
+img{
+	border:0;
+	display:block;
+	width:100%;
+	height:auto;
+}
+
+/*
+img:not([class='hidpi']){
+	border:0;
+	display:block;
+	width:100%;
+	height:auto;
+}
+*/
+input,button{
+	border:none;
+	outline-style:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	vertical-align:bottom;
+	border-radius: 0;
+	box-sizing: border-box;
+	padding:0;
+}
+/*
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+     -webkit-appearance: none;
+     appearance:none;
+     border-radius: 0;
+}
+*/
+
+/* Reset HTML5 Search Input in Webkit */
+
+input[type=search] {
+	-webkit-appearance:none;
+	-webkit-border-radius:0;
+	 box-sizing: border-box;
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+-webkit-appearance:none;
+}
+
+
+@media only screen {
+    @-ms-viewport { width: device-width; }
+}

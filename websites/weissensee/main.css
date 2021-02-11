@@ -1,0 +1,1890 @@
+@font-face {
+  font-family: 'weissensee_light';
+  src: url('weissenseediktatorlight-webfont.eot');
+  src: url('weissenseediktatorlight-webfont.eot?#iefix') format('embedded-opentype'), url('weissenseediktatorlight-webfont.woff') format('woff'), url('weissenseediktatorlight-webfont.ttf') format('truetype'), url('weissenseediktatorlight-webfont.svg#weissensee_diktatorlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'weissensee_meduim';
+  src: url('weissenseediktatormedium-webfont.eot');
+  src: url('weissenseediktatormedium-webfont.eot?#iefix') format('embedded-opentype'), url('weissenseediktatormedium-webfont.woff') format('woff'), url('weissenseediktatormedium-webfont.ttf') format('truetype'), url('weissenseediktatormedium-webfont.svg#weissensee_diktatormedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.3; /* 18px */
+  font-family: weissensee_light, sans-serif;
+  background: url("../../img/spalten_11.png") #fff top left fixed;
+  background-position:3px 0;
+}
+
+a {
+  color: #2f8cc3;
+  text-decoration: none;
+}
+
+p {
+  line-height: 18px;
+  margin-top: 0;
+  margin-bottom: 9px;
+  max-width: 430px;
+}
+
+ul {
+  list-style: disc outside none;
+}
+
+ol {
+  list-style: decimal outside none;
+}
+
+ul, ol {
+  margin-left: 1.5em;
+}
+
+h2 {
+  font-family: weissensee_light, sans-serif;
+  color: #2f8cc3;
+  font-size: 28px;
+  line-height: 21px;
+}
+
+h2.red {
+  color: #FE0000;
+  margin-bottom: 0px !important
+}
+
+span.red {
+  font-family: weissensee_light, helvetica, sans-serif;
+  font-size: 14px;
+  color: #FE0000;
+}
+
+.col-left {
+  float: left;
+  margin-left: 3px;
+}
+
+.col-right {
+  margin: 7px 0 0 0px;
+  float: left;
+}
+
+/** class for text elements that change colour from the randomColour() JS function */
+.auszeichnung {
+  color: #888;
+}
+
+.auszeichnung-inverse {
+  color: #fff;
+  background-color: #888;
+}
+
+.label {
+  font-family: weissensee_light, sans-serif;
+  color: #333;
+  display: inline-block;
+  min-width: 3.5em;
+  font-size: 14px;
+}
+
+.pfeil_link:before{
+  content:'→';
+  padding-right:5px;
+}
+
+.impr {
+  color: #333;
+}
+
+.clear {
+  clear: both;
+}
+
+nav#breadcrumb {
+  display: none;
+}
+
+/********************************************************************** BOXES */
+.page {
+  overflow: hidden;
+
+}
+
+.headline {
+  font-family: weissensee_light, sans-serif;
+  font-size: 77px;
+  line-height: 63px;
+  height: 230px;
+  width: 679px;
+  color: #2f8cc3;
+
+}
+
+.headline h1 {
+  max-height: 2em;
+}
+
+.main {
+  overflow: hidden;
+  margin-top: 3px;
+  min-width: 950px;
+  width: 100%;
+  padding-bottom: 0; /*35px;*/
+}
+
+.col {
+  float: left;
+}
+
+.col.left {
+  width: 567px;
+  padding-top: 189px;
+}
+
+.col.right {
+  width: 378px;
+  padding: 4px 0 0 4px;
+}
+
+.col.right > img {
+  margin-bottom: 7px;
+}
+
+.col.full {
+  position: relative;
+  float: none;
+}
+
+.subcol {
+  width: 448px;
+  float: left;
+}
+
+.subcol.narrow {
+  width: 224px;
+  padding-right: 7px;
+}
+
+ul.users_list .subcol.narrow {
+  width: 324px;
+}
+
+ul.users_list .subcol.narrow a {
+  color: #333 !important;
+}
+
+.subcol.wide {
+  width: 571px;
+}
+
+footer {
+  border-top: 1px dotted #2f8cc3;
+  padding-top: 18px;
+  padding-left: 4px;
+  margin-left: 228px;
+  max-width: 894px;
+}
+
+footer div {
+  margin-bottom: 9px;
+}
+
+footer a.contact, footer a.contact:visited {
+  color: #333;
+}
+
+section.two-col-right + footer {
+  width: 441px;
+}
+
+/************************************************************** CONTENT-BLOCK */
+.content-block {
+  position: relative;
+  overflow: hidden;
+}
+
+.content-block > h2 {
+  color: #333;
+  font-weight: bold;
+  text-align: right;
+  padding: 8px 7px 0 4px;
+  position: absolute;
+  width: 178px;
+  top: 0;
+}
+
+.full .content-block h2 {
+  text-align: left;
+}
+
+/******************************************************************** SECTION */
+.section {
+  margin-left: 231px;
+  margin-right: 7px;
+  padding: 0px 7px 7px 0px;
+  width: 441px;
+}
+
+.section.wide {
+  width: 567px;
+  margin-top: 7px;
+}
+
+.no_border {
+  border-top: none;
+}
+
+.top {
+  padding-top: 0;
+}
+
+.full .section {
+  margin-right: 7px;
+  padding-right: 0px;
+}
+
+.full .no_border {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.subcol .section {
+  margin-left: 0;
+  margin-right: 7px;
+  padding-right: 7px;
+}
+
+.subcol.wide .section {
+  margin-left: 193px;
+}
+
+.section_list {
+  margin-right: 7px;
+}
+
+.section_list li {
+  position: relative;
+  overflow: hidden;
+}
+
+.section_list img.list_item_image {
+  float: left;
+  margin: 0px 7px 0px 140px;
+  width: 90px; /* check this applies to all */
+}
+
+.section_list .meta {
+  float: left;
+  width: 224px;
+  padding-left: 7px;
+}
+
+.section_list .content {
+  margin-left: 193px;
+  padding-bottom: 7px;
+  overflow: hidden;
+}
+
+div.csc-default + div.csc-default .section_list li .content {
+  margin-left: 0;
+}
+
+div.csc-default + div.csc-default .section_list img.list_item_image {
+  margin-left: 0px;
+}
+
+section.page.one-col div.page-navigation {
+  margin-left: 231px;
+  margin-bottom: 9px;
+}
+
+section.page.one-col div#projects_column div.page-navigation {
+  margin-left: 0px;
+  margin-bottom: 9px;
+}
+
+/******************************************************************* PROJECTS */
+.project_list {
+  font-size: 11px;
+  color: #888;
+}
+
+.project_list li:hover, section#projects-sidebar li: , section#user-projects li:hover {
+  background-image: url("../../img/raster_projekt_balken_mouse.png");
+}
+
+.project_list li.open {
+  height: auto;
+}
+
+.project_list .content {
+  margin-left: 160px;
+  padding-right: 7px;
+}
+
+.project_list .author {
+  color: #333;
+  line-height: 14px;
+  padding-top: 3px;
+}
+
+.project_list .title {
+  font-family: weissensee_light, sans-serif;
+  font-size: 21px;
+  line-height: 19px;
+  height: 42px;
+  overflow: hidden;
+}
+
+.project_list .copy {
+  display: none;
+  margin-bottom: 7px;
+}
+
+.project_list .open .copy {
+  display: block;
+}
+
+.project_list .see_menu, ul.projects .see_menu {
+  background: url("../../img/balken_pluszeichen.gif") no-repeat scroll 0 0 transparent;
+  bottom: 13px;
+  display: block;
+  height: 9px;
+  line-height: 9px;
+  position: absolute;
+  right: -4px;
+  width: 9px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.project_list .open .see_menu, ul.projects .open .see_menu {
+  background-image: url('../../img/balken_minuszeichen.gif');
+}
+
+div#col.col-right {
+  width: 449px;
+  overflow: hidden;
+  margin-left: -11px;
+  margin-top: 14px;
+}
+
+div#col.col-right.high {
+  margin-top: -224px;
+}
+
+@media screen and (max-width: 1160px) {
+  div.col-right, div#col.col-right, div#col.col-right.high {
+    margin-top: 10px;
+    margin-left: 231px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  div.col-right, div#col.col-right, div#col.col-right.high, .section {
+    margin-left: 10px;
+  }
+
+}
+
+/**** Projects teaseer  Homepage ********/
+
+a.project {
+  display: block;
+  width: 217px;
+  height: 224px;
+  margin-top: 7px;
+  margin-left: 7px;
+  float: left;
+
+}
+
+a.project div.project-box, a.project div.meta {
+  background-color: #333; /** overriden in style attrib from db project.color */
+  height: 202px; /* parent a.project - 11px padding * 2 */
+  width: 203px; /* parent a.project - 11px padding * 2 */
+  font-family: weissensee_light, sans-serif;
+  font-size: 24px;
+  line-height: 21px;
+  padding: 11px 7px;
+  color: #fff;
+  position: relative;
+}
+
+a.project span.title, div.meta .title {
+  position: absolute;
+  bottom: 59px;
+  font-family: weissensee_light, sans-serif;
+  font-size: 24px;
+  line-height: 21px;
+  padding: 11px 7px 11px 0px;
+  color: #fff;
+}
+
+a.project span.title {
+  max-width: 203px;
+  word-wrap: break-word;
+}
+
+a.project div.project-box span.info {
+  position: absolute;
+  bottom: 11px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+div.meta div.tab {
+  background-image: url('../../img/einbuchtung.png');
+  display: block;
+  height: 19px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 123px;
+  right: 0;
+}
+
+#new-project a {
+  font-size: 16px;
+}
+
+div.home-list a.project:nth-of-type(4n+1) {
+  clear: left;
+}
+
+@media screen and  (min-width: 1012px) and (max-width: 1229px) {
+  div.home-list a.project:nth-of-type(4n+1) {
+    clear: none;
+  }
+
+  div.home-list a.project:nth-of-type(3n+1) {
+    clear: left;
+  }
+
+}
+
+@media screen and (max-width: 1011px) {
+  div.home-list a.project:nth-of-type(4n+1) {
+    clear: none;
+  }
+
+  div.home-list a.project:nth-of-type(3n+1) {
+    clear: none;
+  }
+
+  div.home-list a.project:nth-of-type(2n+1) {
+    clear: left;
+  }
+
+}
+
+#home-overview a, #home-overview a:hover, #home-overview a:visited, #home-overview a:active {
+  color: #fe0000;
+}
+
+div#col.col-right.home-sidebar {
+  width: 318px;
+  margin-left: 7px;
+  margin-top: 0px;
+}
+
+h1#home-logo {
+  text-transform: lowercase;
+  font-family: weissensee_light, sans-serif;
+  font-size: 70px;
+  line-height: 56px;
+  font-weight: 400;
+  background: url("../../img/weissensee_logo_start.png") top left no-repeat;
+  width: 318px;
+  height: 216px;
+  font-size: 0px;
+  margin-top: 7px;
+  overflow: visible;
+}
+
+#home-overview div#fachlist {
+  margin-top: 17px;
+}
+
+#home-overview div#fachlist a, div#home-events span.event-name {
+  display: inline-block;
+  font-size: 23px;
+  font-family: weissensee_meduim, helvetica, sans-serif;
+  line-height: 25px;
+  color: #FE0000;
+}
+
+div#home-events ul li {
+  margin-bottom: 13px;
+}
+
+/*********************************************************** PROJECTS QUADRAT */
+.project_list_quadrat {
+  overflow: hidden;
+}
+
+.project_list_quadrat li {
+  color: #fff;
+  background: #ccc;
+  float: left;
+  width: 168px;
+  height: 168px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+  position: relative;
+}
+
+.project_list_quadrat a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.project_list_quadrat .title {
+  font-family: weissensee_light, sans-serif;
+  font-size: 24px;
+  line-height: 21px;
+  height: 63px;
+  margin-top: 66px;
+}
+
+.project_list_quadrat .info {
+  font-family: weissensee_light, sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  height: 42px;
+  overflow: hidden;
+}
+
+.project_list_quadrat img {
+  display: block;
+}
+
+/* Pagation styling */
+
+ul.f3-widget-paginator {
+  list-style-type: none;
+  margin-left: 0;
+  padding-bottom: 0;
+  font-family: weissensee_light, sans-serif;
+  font-size: 14px; /*16px;*/
+}
+
+div.csc-default ul.f3-widget-paginator {
+  padding-bottom: 0;
+}
+
+.tx-khberlin .page-navigation ul.f3-widget-paginator li {
+  display: inline;
+}
+
+ul.f3-widget-paginator li a, ul.f3-widget-paginator li a:visited {
+  color: #111;
+}
+
+ul.f3-widget-paginator li:after {
+  content: " | ";
+  font-family: weissensee_light, sans-serif;
+  color: #333;
+  font-weight: normal;
+}
+
+ul.f3-widget-paginator li:last-child:after, ul.f3-widget-paginator li.next:after, ul.f3-widget-paginator li.previous:after {
+  content: "";
+}
+
+ul.f3-widget-paginator li:nth-last-child(2):after {
+  content: "";
+}
+
+ul.f3-widget-paginator li:hover {
+  background: none;
+  font-family: weissensee_meduim, sans-serif;
+}
+
+ul.f3-widget-paginator li:hover span.next a, ul.f3-widget-paginator li:hover span.previous a{
+  font-family: weissensee_light, sans-serif;
+}
+
+ul.f3-widget-paginator li.current {
+  font-weight: bold;
+  font-family: weissensee_meduim, sans-serif;
+}
+
+ul.f3-widget-paginator li:nth-child(2):after {
+  content: " | ";
+}
+
+/* projects list pages */
+
+.tx-khberlin #projects.project_list {
+  margin-left: 227px;
+}
+
+.tx-khberlin #projects.project_list ul.project_list {
+  float: left;
+  overflow: hidden;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.tx-khberlin #projects.project_list ul.project_list li {
+  border: 1px dotted #333;
+  color: #333;
+  /*min-height:153px;/*109px;*/
+  height: 150px; /*109px;*/
+  overflow: visible;
+  position: relative;
+  font-size: 16px;
+  margin: 0 7px 7px 0;
+  width: 434px; /*441px;*/
+  padding: 3px 3px 0;
+}
+
+.tx-khberlin #projects.project_list ul.project_list li.open {
+  height: auto;
+  min-height: 150px;
+}
+
+.tx-khberlin #projects.project_list ul.project_list li .image {
+  float: left;
+}
+
+.tx-khberlin section#user-projects ul.projects li .dynamic .image {
+  float: left;
+}
+
+.tx-khberlin #projects.project_list ul.project_list li .image img.add {
+  margin: 0 1.5px;
+}
+
+.tx-khberlin #projects.project_list ul.project_list li .box {
+  display: block;
+  margin-left: 222px;
+  overflow: hidden;
+  width: 211px;
+  font-size: 14px;
+}
+
+.tx-khberlin section#user-projects ul.projects li .dynamic .box {
+  display: block;
+  margin-left: 224px;
+  overflow: hidden;
+  width: 211px;
+  font-size: 14px;
+}
+
+.tx-khberlin #projects.project_list ul.project_list li .box .author {
+  color: #333;
+  border: 0 none;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.tx-khberlin #projects.project_list ul.project_list li .box .title {
+  font-size: 24px;
+  line-height: 21px;
+  height: 44px;
+  overflow: hidden;
+  max-width: 213px;
+  word-wrap: break-word;
+  margin-top: 6px;
+}
+
+.tx-khberlin #projects.project_list ul.project_list li .box .title a {
+  color: inherit
+}
+
+section#projects-sidebar ul.projects li div.dynamic .image {
+  float: left;
+}
+
+section#projects-sidebar ul.projects li div.dynamic .image img.add {
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+
+.dynamic img {
+  margin-bottom: 3px;
+}
+
+section#projects-sidebar ul.projects li div.dynamic .box {
+  display: block;
+  margin-left: 224px;
+  overflow: hidden;
+  width: 211px;
+  font-size: 14px;
+}
+
+section#projects-sidebar ul.projects li div.dynamic .box .author {
+  color: #333;
+  border: 0 none;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+section#projects-sidebar ul.projects li div.dynamic .box .title {
+  font-size: 24px;
+  line-height: 21px;
+  height: 44px;
+  overflow: hidden;
+}
+
+section#projects-sidebar ul.projects li div.dynamic .box .title a {
+  color: inherit
+}
+
+/*********************************************************** PROJECTS EDIT VIEW */
+.tx-khberlin .edit_project {
+  margin-left: 230px;
+}
+
+/****************************************************************** DOWNLOADS */
+.downloads_list span {
+  font-family: weissensee_light, sans-serif;
+  background: #888;
+  color: #fff;
+  display: inline-block;
+  margin: 0 15px 0 3px;
+  padding: 0 5px;
+  line-height: 14px;
+  font-size: 11px;
+}
+
+/********************************************************************** USERS */
+.users_single .label {
+  width: 90px;
+  margin: 0 6px 0 0;
+  text-align: right;
+}
+
+.users_single .pfeil_link {
+  display: block;
+  margin-top: 21px;
+}
+
+.users_single .single_item_image {
+  float: left;
+  margin: 3px 7px 0 0;
+}
+
+.users_single h1 {
+  font-size: 21px;
+  font-weight: bold;
+
+}
+
+.subcol .section h2 {
+  padding: 0 7px 0 4px;
+  position: absolute;
+  text-align: right;
+  left: 0px;
+  width: 182px;
+}
+
+h2.user-name, div.csc-default h2.user-name {
+  font-family: weissensee_light, sans-serif;
+  font-size: 24px;
+  line-height: 21px;
+  margin-bottom: 11px;
+}
+
+ul.users_list div.subcol.narrow {
+  color: #333;
+}
+
+ul.users_list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-bottom: 0;
+}
+
+/***** User's  Projects Sidebar *****/
+
+section#user-projects {
+  float: left;
+  margin-left: 679px;
+  position: absolute;
+  top: 7px;
+  background: #fff;
+}
+
+div#user-projects-nav {
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+div#user-projects-nav a, div#user-projects-nav a:visited, div#user-projects-nav a:focus {
+  color: #333;
+}
+
+div#user-projects-nav a.current {
+  text-decoration: underline;
+}
+
+ul.projects li div.image div.box {
+  width: 217px;
+  height: 147px;
+  background-color: #888; /* overriden in style tag to project colour */
+  float: left;
+  margin-right: 7px;
+}
+
+ul.projects {
+  width: 446px; /*441px;*/
+  list-style-type: none;
+  margin-left: 0;
+}
+
+ul.projects li {
+  display: inline-block;
+  border: dotted 1px #aaa;
+  width: /*441px;*/ 435px; /** width of 441-(padding of 3 *2) */
+  padding: 3px;
+  margin-bottom: 7px;
+  position: relative;
+}
+
+ul.projects li div.static {
+  max-height: 147px;
+}
+
+ul.projects li img {
+  float: left;
+  margin-right: 7px;
+}
+
+ul.projects a.title {
+  font-family: weissensee_light, sans-serif;
+  font-size: 24px;
+  line-height: 21px;
+  display: inline-block;
+  max-width: 203px;
+  word-wrap: break-word;
+}
+
+ul.projects div.departments {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: weissensee_light, sans-serif;
+  font-size: 14px;
+  color: #333;
+  min-height: 1em;
+  max-height: 3.25em;
+  overflow: hidden;
+}
+
+section#projects-sidebar ul.projects div.departments{
+  padding-bottom:0;
+  max-height:90px;
+}
+section#projects-sidebar a.loadProject.title{
+  margin-top:4px;
+}
+
+
+ul.section_list li {
+  border-top: 1px dotted #2f8cc3;
+  padding: 7px /* was 9px */ 0px;
+}
+
+ul.section_list li:last-child {
+  border-bottom: 1px dotted #2f8cc3;
+}
+
+/**  courses (lehrangeboten) list **/
+ul#courses_list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-bottom: 0;
+}
+
+ul#courses_list li {
+  border-top: none;
+  border-bottom: 1px dotted #2f8cc3;
+  padding-top: 15px;
+}
+
+ul#courses_list li:first-child {
+  border-top: 1px dotted #2f8cc3;
+}
+
+ul#courses_list li h3, article.course h1 {
+  font-family: weissensee_light, sans-serif;
+  font-size: 24px;
+  line-height: 21px;
+}
+
+.courses_single .info {
+  padding-bottom: 42px;
+}
+
+ul#courses_list p.semester {
+  margin-bottom: 0;
+}
+
+div.course-meta p {
+  /*color: #666;*/
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+div.course-meta p span {
+  color: #666;
+}
+
+article.course p.owner {
+  margin-left: 209px;
+}
+
+article.course p.owner a.pfeil_link:before {
+  content:'←';
+}
+
+article.course div.subjects {
+  width: 218px;
+  float: left;
+  text-align: right;
+  color: #666;
+  padding-right: 3px;
+}
+
+article.course div.detail {
+  padding-left: 7px;
+  width: 441px;
+  float: left;
+  padding-right: 7px;
+  padding-bottom: 9px;
+}
+
+article.course div.course-meta {
+  width: 221px;
+  float: left;
+  padding-bottom: 18px;
+}
+
+article.course h1, ul#courses_list li h3 {
+  margin-bottom: 9px;
+}
+
+article.course:after {
+  clear: left;
+}
+
+ul#courses_list div.detail p br {
+  height: 9px;
+  line-height: 9px;
+}
+
+ul#courses_list div.detail p br + br {
+  height: 0px;
+  line-height: 0px;
+}
+
+section.page.one-col section h2.course-category {
+  margin-left: 228px;
+  width: 448px;
+}
+
+li.course article.course div.detail p:last-child {
+  margin-bottom: 7px;
+}
+
+li.course article.course div.subjects {
+  margin-top: 32px;
+}
+
+li.course article.course div.course-meta {
+  margin-top: 32px;
+}
+
+div.courses-pagation-top {
+  padding-bottom: 9px
+}
+
+div.courses-pagation-bottom {
+  padding-top: 9px
+}
+
+article.course div.course-meta {
+  color: #666;
+}
+
+article.course .label {
+  min-width: 0px;
+  color: #333;
+}
+
+/*** calender ***/
+
+a[rel=profile], .vevent span.dtstart, .vevent span.location-additional {
+  display: none;
+}
+
+ul.events-sidebar{
+  list-style: none;
+  margin-left:0px;
+}
+
+
+ul.events {
+  width: 2048px;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.vevent div.eventDetails {
+  float: left;
+  margin-left: 7px !important;
+  width: 438px;
+  margin-right: 7px;
+  padding-bottom: 0px
+}
+
+li.vevent {
+  min-height: 86px; /* same as image height [fixed] */
+  font-family: weissensee_light;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+article.vevent div.meta {
+  float: left;
+  padding-left: 7px;
+}
+
+.vevent div.meta {
+  text-align: right;
+  width: 210px;
+  padding-right: 7x;
+  margin-right: 7px;
+  padding-top: 32px;
+  padding-bottom: 2px;
+}
+
+.vevent time {
+  font-family: weissensee_light, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.vevent h2.summary, .vevent span.dayPart {
+  font-family: weissensee_light, sans-serif;
+  font-size: 24px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+.vevent address, .vevent span.category {
+  font-size: 18px;
+  line-height: 21px;
+  color: #999;
+}
+
+.vevent address {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.vevent span.category {
+  padding-top: 2px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.vevent h2.summary {
+  margin-bottom: 7px;
+}
+
+img.event-pic {
+  float: left;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+
+/**** callout styling ****/
+
+div.callout {
+  position: fixed;
+  top: 117px;
+  right: 7px;
+  z-index: 10;
+}
+
+div.callout-inner {
+  border: 1px dotted #333;
+  padding: 10px;
+}
+
+div.zipfel {
+  width: 54%;
+  background: url("../../img/zipfel_unten_rechts.png") top right no-repeat;
+  z-index: 11;
+  margin-top: -1px;
+  height: 18px;
+}
+
+div.callout input[type=radio] {
+  background: #fff;
+  color: #333;
+  border-color: #333;
+  padding: 0px;
+}
+
+/* individual callout overrides */
+
+div#eventcat-callout {
+  top: 70px; /* event category callout goes over 2 lines so needs to be higher*/
+  right: 80px; /* so tail appears over the calendar menu item - may need tweaking*/
+  width: 318px;
+}
+
+div#search-callout {
+  display: none;
+  z-index: 20;
+  top: 75px;
+  right: 90px; /*100px;*/
+  width: 334px;
+}
+
+div#search-callout form {
+  padding-left: 0;
+}
+
+div#search-callout div.callout-inner {
+  background: #fff;
+  padding-left: 8px;
+  padding-bottom: 8px;
+  padding-top: 3px;
+}
+
+/*form#search-callout*/
+
+div.callout input[type=radio] {
+  display: none;
+}
+
+div.callout input[type=radio] + label {
+  padding-left: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: left center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+div.callout input[type=radio]:checked + label {
+  background-image: url("../../img/checkbox-on.gif");
+}
+
+div.callout label {
+  background-image: url("../../img/checkbox-off.gif");
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input#s_query {
+  border-color: #de2628;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 2px;
+  margin-top: 7px;
+  height: 14px;
+  font-family: weissensee_light, sans-serif;
+  width: 278px;
+}
+
+input#s_go {
+  color: #fff;
+  font-family: weissensee_light, sans-serif;
+  background-color: #de2628;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #de2628;
+  height: 17px;
+  padding: 1px;
+}
+
+/* user filter by letter callout #userfilter-callout   */
+
+div.zipfel-top {
+  width: 50%;
+  background: url("../../img/zipfel_oben_rechts.png") bottom right no-repeat;
+  margin-top: -20px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+div#userfilter-callout {
+  top: 230px;
+  right: 90px; /*165px;*/
+  width: 310px;
+
+}
+
+div#userfilter-callout div.callout-inner {
+  background: #fff;
+  height: 23px;
+  padding-bottom: 0;
+  padding-top: 0px;
+  padding-left: 14px;
+  letter-spacing: 0.06em;
+}
+
+div#userfilter-callout a, div#userfilter-callout a:visited {
+  color: #333;
+}
+
+div#userfilter-callout .current {
+  font-weight: bold;
+}
+
+/*********** Form stuff ****************/
+
+.limitSize {
+  max-height: 12em;
+  overflow-y: auto;
+}
+
+ul.mediaList {
+  list-style-type: none;
+  margin-left: 0;
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+ul.mediaList li {
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+  min-height: 70px;
+  margin: auto;
+}
+
+.ui-sortable-helper {
+  background: #fdfdfd;
+  border: 1px dashed #f0f0f0;
+}
+
+.handle {
+  width: 32px;
+  height: 32px;
+  background: url("../../img/cursor_drag.png") center center no-repeat;
+  float: right;
+  margin-right: 5px;
+  margin-left: 1em;
+  margin-top: 19px;
+  cursor: move;
+}
+
+ul.limitSize li {
+  margin-left: 0.5em;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border-bottom: 1px dotted #efefef;
+}
+
+ul.limitSize li:first-child {
+  border-top: 1px dotted #efefef;
+}
+
+ul.limitSize li a {
+  display: block;
+}
+
+ul.limitSize li:hover {
+  background: #eee;
+}
+
+a.action {
+  font-weight: bold;
+  background: #eee;
+  border: 1px solid #ddd;
+  padding: 1px 0.25em;
+  margin-bottom: 0.25em;
+  display: inline-block;
+}
+
+select.wide {
+  min-width: 24em;
+}
+
+p.buttonGroup {
+  padding-left: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p.buttonGroup input {
+  margin-right: 1em;
+}
+
+input[type="submit"].default {
+  font-weight: bolder;
+}
+
+span.remove {
+  color: #440000;
+  background: #eee;
+  margin-left: 0.5em;
+}
+
+span.remove:hover {
+  cursor: pointer;
+}
+
+/** tabs **/
+ul.tabs {
+  list-style-type: none;
+  margin-bottom: 3px;
+  border-bottom: 1px solid #666;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  margin-left: 0;
+}
+
+ul.tabs li {
+  display: inline;
+  margin-right: 3px;
+}
+
+ul.tabs li a, ul.tabs li a:visited, ul.tabs li a:active, ul.tabs li a:focus {
+  border: 1px solid #666;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #333 !important;
+  outline: none;
+}
+
+ul.tabs li.active a {
+  border-bottom: 1px solid #fff;
+}
+
+/* select for attatching exiting file to project - ShowAttachMedia.html */
+
+select#file-select {
+  width: 400px;
+}
+
+select#file-select option {
+  display: block;
+  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  background: url('/typo3conf/ext/vtm_basic/img/pdf.png') center left no-repeat; /* image is dynamically set */
+  height: 66px;
+  padding-left: 80px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+/** frontend login form (fe_login) **/
+
+.tx-felogin-pi1 form {
+  padding: 1em 0;
+}
+
+.tx-felogin-pi1 label[for=permalogin] {
+  float: left;
+}
+
+.tx-felogin-pi1 input[type=submit] {
+  margin-top: 1em;
+}
+
+/** misc **/
+
+div.agb {
+  max-height: 24em;
+  overflow-y: auto;
+}
+
+div.agb h4 {
+  font-weight: bold;
+}
+
+div.user-info img.pic {
+  width: auto;
+  height: 120px;
+  float: left;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+
+/** Comma Seperated List, horizontal */
+ul.csl li {
+  display: inline;
+}
+
+ul.csl li:after {
+  content: ", ";
+}
+
+ul.csl li:last-child:after {
+  content: "";
+}
+
+input.number {
+  text-align: right;
+}
+
+/* News-System */
+.news .news-list-view .article {
+  margin-bottom: 12px
+}
+
+.news .news-list-view .header h2 {
+  margin-bottom: 0;
+  color: #FE0000;
+  font: 23px weissensee_light, sans-serif;
+}
+
+.news .news-list-view .news-list-event-date {
+  color: #fe0000;
+  font: 14px weissensee_light, sans-serif;
+}
+
+/* News-System */
+
+/*** Search Results ***/
+
+#search-summary {
+  font-family: weissensee_light, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 9px;
+}
+
+#search-count-per-type {
+  color: #aaa;
+}
+
+.search-result-type {
+  float: left;
+  width: 220px; /*224*/
+  margin-right: 7px;
+  text-align: right;
+  font-family: weissensee_light, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #aaa;
+  display: block;
+}
+
+.search-result-details a.name {
+  font-family: weissensee_light, sans-serif;
+  font-size: 24px;
+  line-height: 21px;
+  display: block;
+  padding-bottom: 0.2em;
+}
+
+.search-result-details {
+  margin-left: 231px;
+}
+
+/** download list links **/
+
+.csc-uploads-fileName a:before {
+  content: "PDF Download";
+  color: #fff;
+  background-color: #888;
+  margin-right: 0.5em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+td.csc-uploads-fileName {
+  padding-bottom: 0.5em;
+}
+
+div.typo3-message, div.wait {
+  display: block;
+  padding: 0.25em;
+  border: 1px solid #888;
+  background-color: #efefef;
+  margin-bottom: 0.75em;
+  padding-left: 28px;
+  max-width: 860px;
+}
+
+div.message-ok {
+
+  border-color: #a3c3a3;
+  background: url("../../img/done.png") center left no-repeat;
+  background-color: #d4eed4;
+}
+
+div.message-error {
+  border-color: #c3a3a3;
+  background: url("../../img/error.png") center left no-repeat;
+  background-color: #eed4d4;
+}
+
+div.message-warning {
+  border-color: #c3c3a3;
+  background: url("../../img/warning.png") center left no-repeat;
+  background-color: #eeeed4;
+}
+
+a#skip, a#skip:hover, a#skip:visited {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  display: block;
+}
+
+a#skip:active, a#skip:focus {
+  height: auto;
+  width: auto;
+}
+
+div#projects-square a.project {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 7px;
+  margin-right: 0px;
+}
+
+div#projects-square a.project + a.project {
+  margin-left: 7px;
+}
+
+form {
+  padding-left: 7px;
+}
+
+select#projects-semester {
+  border: none;
+  outline: none;
+  margin-bottom: 0.5em;
+  padding-right: 1em;
+  min-width: 8em;
+  font-family: weissensee_light, sans-serif;
+  font-size: 18px;
+  background: #fff;
+}
+
+select#projects-semester:focus, select#projects-semester:active {
+  border: none;
+  outline: none;
+}
+
+select#projects-semester option, select#projects-semester option:focus {
+  border: none;
+  outline: none;
+}
+
+ul.courses {
+  max-height: 24em;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+ul.courses li {
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+}
+
+ul.courses li a.show, ul.courses li a.copy {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 0px;
+  line-height: 24px;
+  float: left;
+}
+
+ul.courses li a.show {
+  background: url("../../img/show.png") center center no-repeat;
+}
+
+ul.courses li a.copy {
+  background: url("../../img/copy.png") center center no-repeat;
+  margin-left: 8px;
+}
+
+ul.courses li a.show + a.copy + a {
+  display: inline-block;
+  margin-left: 1em;
+  min-width: 14em;
+}
+
+#x-overlay-preload-do-not-use-x {
+  background: url("../../img/video-overlay.png");
+}
+
+div.video-wrap {
+  position: relative;
+}
+
+img.video-thumbnail {
+  display: block;
+}
+
+img.overlay {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  float: left;
+}
+
+div.block-link {
+  cursor: pointer;
+}
+
+div.col-right DIV.csc-textpic DIV.csc-textpic-single-image img {
+  margin-top: 11px;
+  margin-bottom: 11px;
+  height: 442px;
+}
+
+div.col-right DIV.csc-textpic-center DIV.csc-textpic-imagewrap {
+  max-width: 442px;
+  overflow: hidden;
+}
+
+div#home-events ul, div#search-summary ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+div.csc-default ul, div.csc-default ol {
+  padding-bottom: 1em;
+}
+
+/* breadcrumb */
+
+.breadcrumb {
+  width: 60%;
+  top: 164px;
+  position: fixed;
+  z-index: 6;
+  height: 25px;
+  background: #fff;
+  margin-left: 130px;
+  cursor: pointer;
+  display: none;
+}
+
+.breadcrumb p {
+  max-width: none;
+  text-transform: capitalize;
+  padding: 15px;
+  padding-top: 8px;
+  padding-left: 24px;
+  font-weight: bold;
+  font-family: weissensee_light, helvetica, sans-serif;
+  letter-spacing: 0.13em;
+
+}
+
+.breadcrumb p span.crumb-divider {
+  padding-left: 7px;
+  padding-right: 6px;
+}
+
+span.project-text.short {
+  font-size: 14px;
+  font-family: weissensee_light, sans-serif;
+  line-height: 18px;
+  color: #383838;
+}
+
+.user-info a {
+  color: #333 !important;
+}
+
+.user-info span {
+  margin-right: 20px;
+}
+
+.user-info p.user-details {
+
+}
+
+.user-info ul.csl {
+  height: 100px;
+}
+
+div.csc-default .user-info h2 {
+  margin-bottom: 0;
+}
+
+span.participants {
+  padding-left: 20px;
+}
+
+div.csc-default h3.statement-title {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+ul.search_list {
+  margin-left: 0;
+}
+
+ul.search_list li {
+  list-style: none;
+}
+
+ul.search_list li ul.csl li {
+  border: none;
+  padding: 0;
+  margin-left: 0;
+}
+
+ul.search_list li ul.csl {
+  margin-left: 0;
+}
+
+p.clist-desc {
+  margin-top: -9px;
+}
+
+p.ctype {
+  margin-top: 9px;
+}
+
+ul#courses_list article.course a.owner {
+  margin-left: 0;
+}
+
+select#color, select#color option {
+  background-color: #fff !important;
+}
+
+div.course-meta p span.pdflabel {
+  color: #fff;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+div#home-events span.event-name {
+  line-height: 21px;
+}
+
+span.info-box {
+  display: block;
+  background: url('../../img/see/SeeInfo.gif');
+  width: 23px;
+  height: 23px;
+  float: left;
+}
+
+span.info-box.left {
+  margin-left: 20px;
+}
+
+.subcol-width {
+  width: 324px;
+}
+
+span.teacherlisting {
+  display: block;
+  margin-left: 20px;
+  margin-top: -18px;
+}
+
+a.translate {
+  background: #fff url('../../img/english.gif') top left no-repeat;
+  height: 24px;
+  width: 32px;
+  /*display: inline-block;*/
+  float: right;
+}
+
+em.original {
+  font-style: italic;
+  font-size: smaller;
+}
+
+.home-sidebar .csc-header-n2 h2.red{
+  margin-top:12px;
+}
+
+/* home page sidebar menu */
+
+.home-sidebar .csc-menu {
+  margin: 0 0 0.5em 0;
+  padding:0;
+}
+
+.home-sidebar .csc-menu li {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+.home-sidebar .csc-menu li a {
+  margin-bottom: 0;
+  color: #FE0000;
+  font: 23px weissensee_light, sans-serif;
+  line-height: 25px;
+}
+
+.contact-info{
+  display:none;
+  position:absolute;
+  right:40px;
+  top:-115px;
+}
+.contact-info .zipfel{
+   margin-left:27%;
+}
+
+.contact-bubble{
+  background:url('../../img/adresse.png');
+  width:252px;
+  height:90px;
+  border: 1px dotted #333;
+}
+
+div.csc-default ul {
+  padding-bottom: 0;
+}
+
+ul.csc-uploads {
+  margin-left: 0;
+}
+
+ul.csc-uploads li {
+  margin: 0 0 0.5em 0;
+}
+
+ul.csc-uploads span.csc-uploads-fileName {
+  text-decoration: none;
+}
+
+/**
+ * This is made for markdown section. May also be moved to rest of css
+ */
+.markdown-area {
+
+}
+
+    .markdown-area strong {
+        font-weight:bold;
+    }
+
+    .markdown-area em {
+        font-style: italic;
+    }

@@ -1,0 +1,14 @@
+#search_clear {
+  display: none;
+  position: absolute;
+  left: 200px;
+  top: 6px;
+  width: 19px;
+  height: 19px;
+  background: url('../images/clear.png') 50% 50% no-repeat;
+  text-indent: -99px;
+}
+
+#search_clear.loading {
+  background-image: url('../images/ajax-loader.gif');
+}

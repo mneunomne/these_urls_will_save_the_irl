@@ -1,0 +1,82 @@
+/** --------------------------------------------------------------------
+
+  Accessible Breadcrumbs
+
+--------------------------------------------------------------------- */
+
+.breadcrumb-nav {
+ /* background: #eee;
+ border: 1px solid #ccc;
+  font-size: .85em;
+  margin: 0 0 2em;
+  padding: .5em;
+  font-size: smaller;*/
+  padding-top:10px;
+  margin-bottom:0.75em;
+}
+
+.breadcrumb-nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb-nav li {
+  display: inline-block;
+}
+
+.breadcrumb-nav li:before {
+  content: "\2000";
+  position: absolute;
+}
+
+//.breadcrumb-nav li:not(:last-child):after {
+//  content: "";
+//  display: inline-block;
+//  margin-left: .75ch;
+//  margin-right: .5ch;
+//  border-top: .75ch solid transparent;
+//  border-bottom: .75ch solid transparent;
+//  border-left: .75ch solid #000;
+//}
+
+.breadcrumb-nav li:not(:last-child)::after {
+    background: black none repeat scroll 0 0;
+    border-left: 1px solid;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    margin-left: 8px;
+    margin-right: 3px;
+    position: relative;
+    transform: rotate(34deg);
+}
+
+.breadcrumb-nav a {
+  display: inline-block;
+  /*font-weight: bold;*/
+}
+
+.breadcrumb-nav a:focus{
+//  outline: 2px solid;
+  outline-offset: 2px;
+//  text-decoration: none;
+}
+/*
+.breadcrumb-nav a:hover {
+  outline: 2px solid;
+  outline-offset: 2px;
+  text-decoration: none;
+}
+*/
+
+.breadcrumb-nav [aria-current] {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/*.breadcrumb-nav [aria-current]:hover,*/
+//.breadcrumb-nav [aria-current]:focus{
+//  outline: 4px solid;
+//}
