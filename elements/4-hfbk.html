@@ -1,0 +1,33 @@
+<!-- 2-hfbk -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="/libs/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="/websites/hfbk/hfbk.css">
+    <style>
+      .event-filter {
+        width: 360px;
+        border: 2.88px solid #f50000;
+        border: 0.18rem solid #f50000;
+        background-color: #f50000;
+        color: #fff;
+        border-radius: .25rem;
+        font-size: 30px;
+        font-size: 1.875rem;
+        display: block;
+        margin-bottom: 8px;
+        margin-bottom: .5rem;
+        padding: 6.4px 64px 3.2px 8px;
+        padding: .4rem 4rem .2rem .5rem;
+      }
+      .event-filter:hover {
+        background: white;
+      }
+    </style>
+    <base target="_parent">
+  </head>
+  <body>
+    <div class="el" id="target"></div>
+    <script>$('#target').load('/websites/hfbk/hfbk.htm #calendar')</script>
+  </body>
+</html>

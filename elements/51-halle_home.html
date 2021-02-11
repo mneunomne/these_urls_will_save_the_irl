@@ -1,0 +1,40 @@
+<!-- halle__home -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="/libs/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="/websites/halle__home/main.css">
+    <link rel="stylesheet" href="/websites/halle__home/full.1601020931.css">
+    <style>
+      html {
+        pointer-events: none;
+      }
+      .mfp-wrap {
+        pointer-events: all;
+      }
+    </style>
+    <base target="_parent">
+  </head>
+  <body>
+    <div class="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-ready" tabindex="-1" style="overflow: hidden auto;"><div class="mfp-container mfp-s-ready mfp-inline-holder"><div class="mfp-content"><div class="buha-translation-info-popup">
+      <h1>English version</h1><p>Please note: not all the content is available in english. We are working on it.</p>
+      <form>
+        <label>
+          <input type="checkbox" class="buha-translation-info-popup__keep-hidden-checkbox">
+          <span class="buha-translation-info-popup__keep-hidden-label">Do not show the message again</span>
+        </label>
+      </form>
+      <a class="buha-translation-info-popup__dismiss-button" href="#">Ok</a>
+    <button title="Close (Esc)" type="button" class="mfp-close">×</button></div></div><div class="mfp-preloader">Loading …</div></div></div>
+    <div class="el" id="target"></div>
+    <script>
+    $('#target').load('/websites/halle__home/halle__home.htm .mfp-ready')
+    $('.mfp-close').click(() => {
+      $('.mfp-wrap').remove()
+    })
+    $('.buha-translation-info-popup__dismiss-button').click(() => {
+      $('.mfp-wrap').remove()
+    })
+    </script>
+  </body>
+</html>

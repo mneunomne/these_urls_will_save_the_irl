@@ -2,23 +2,23 @@
 @font-face{ 
 	font-family: 'hbknormal'; 
 	font-weight: 400; 
-	src: url('../fonts/_bernini/BerninaSans-Web-Regular.eot?#iefix') format('embedded-opentype'), 
-		 url('../fonts/_bernini/BerninaSans-Web-Regular.woff2') format('woff2'), 
-		 url('../fonts/_bernini/BerninaSans-Web-Regular.woff') format('woff');
+	src: url('./BerninaSans-Web-Regular.eot?#iefix') format('embedded-opentype'), 
+		 url('./BerninaSans-Web-Regular.woff2') format('woff2'), 
+		 url('./BerninaSans-Web-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'hbkbold';
-    src: url('../fonts/_bernini/BerninaSans-Web-Bold.eot?#iefix') format('embedded-opentype'), 
-    	 url('../fonts/_bernini/BerninaSans-Web-Bold.woff2') format('woff2'), 
-    	 url('../fonts/_bernini/BerninaSans-Web-Bold.woff') format('woff');
+    src: url('./BerninaSans-Web-Bold.eot?#iefix') format('embedded-opentype'), 
+    	 url('./BerninaSans-Web-Bold.woff2') format('woff2'), 
+    	 url('./BerninaSans-Web-Bold.woff') format('woff');
     font-weight: normal;
 }
 @font-face {
     font-family: 'hbklight';
-    src: url('../fonts/_bernini/BerninaSans-Web-Light.eot?#iefix') format('embedded-opentype'), 
-    	 url('../fonts/_bernini/BerninaSans-Web-Light.woff2') format('woff2'), 
-    	 url('../fonts/_bernini/BerninaSans-Web-Light.woff') format('woff');
+    src: url('./BerninaSans-Web-Light.eot?#iefix') format('embedded-opentype'), 
+    	 url('./BerninaSans-Web-Light.woff2') format('woff2'), 
+    	 url('./BerninaSans-Web-Light.woff') format('woff');
     font-weight: normal;
 }
 @font-face {

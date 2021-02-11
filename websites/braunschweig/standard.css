@@ -316,8 +316,8 @@ form.contact div.message { margin: 15px 0 25px 0; }
 #content p.commentary { padding-bottom:1.5em; margin-bottom: 1.5em; border-bottom: 1px solid #d8d8d8; }
 #content p.commentary a { font-size: 1.1538em; line-height: 2em; }
 #content p.commentary span.commentarydate { color: #5b5b5b; font-size: 0.7692em; line-height:3em; }
-input.submit { background: transparent url(/pics/button_send_off.gif) top left no-repeat; width: 27px; height: 16px; padding: 0; border: 0; }
-input.submit:hover, input.submit:focus, input.submitover { background: transparent url(/pics/button_send_on.gif) top left no-repeat; cursor: pointer; width: 27px; height: 16px; padding: 0; border: 0; }
+input.submit { background: transparent url(button_send_off.gif) top left no-repeat; width: 27px; height: 16px; padding: 0; border: 0; }
+input.submit:hover, input.submit:focus, input.submitover { background: transparent url(button_send_on.gif) top left no-repeat; cursor: pointer; width: 27px; height: 16px; padding: 0; border: 0; }
 input.submitNormal { font-size: 1em; }
 
 /* zurück-Paragraph */
