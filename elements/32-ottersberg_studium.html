@@ -1,1 +1,23 @@
-<!-- 32-ottersberg_studium -->
+<!-- 32-ottersberg_studium musaeviski-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../libs/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="../websites/ottersberg/styles-04.css">
+    <style>
+      body {
+        background: white;
+        margin: 2px;
+      }
+      #target {
+        text-align: initial !important;
+        max-width: 50px;
+      }
+    </style>
+    <base target="_parent">
+  </head>
+  <body>
+    <div id="target"></div>
+    <script>$('#target').load('../websites/ottersberg/ottersberg.html #musaeviski')</script>
+  </body>
+</html>
