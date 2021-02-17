@@ -1,1 +1,30 @@
 <!-- 31-ottersberg_studium -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../libs/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="../websites/ottersberg_studium/styles-04.css">
+    <style>
+      body {
+        background: white;
+        margin: 2px;
+      }
+      #target {
+        text-align: initial !important;
+        max-width: 490px !important;
+      }
+      a {
+        color: #7f7f7f !important;
+        text-decoration: none !important;
+      } 
+      form {
+        display: none;
+      }
+    </style>
+    <base target="_parent">
+  </head>
+  <body>
+    <div id="target"></div>
+    <script>$('#target').load('../websites/ottersberg_studium/ottersberg_studium.htm .leveler')</script>
+  </body>
+</html>
