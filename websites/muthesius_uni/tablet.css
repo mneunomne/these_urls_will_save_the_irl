@@ -1,0 +1,323 @@
+@media only screen and (min-width:520px) {
+	
+/*------------------------------------*\
+    HIDE ELEMENTS
+\*------------------------------------*/
+
+
+	
+/*------------------------------------*\
+    STRUCTURE & LAYOUT
+\*------------------------------------*/
+
+body {
+  line-height: 1.467em;
+  text-align: left;
+}
+
+/* header */
+#frame-left .header {
+	margin-bottom: 90px;
+}
+
+#frame-right .header {
+	padding-top: 18px;
+}
+
+/* logo */
+#frame-left .logo {
+	font-weight: bold;
+	margin-top: 24px;
+	padding-right: 105px;
+}
+
+/* metamenu */
+.metamenu {
+	float: right;
+	color: #000;
+	height: auto;
+	line-height: inherit;
+	margin-top: 8px;
+}
+	#frame-left .metamenu {
+		margin-top: 28px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 1;
+	}
+	#frame-right .metamenu {
+		margin-top: 8px;
+		position: relative;
+		z-index: 12;
+	}
+
+.metamenu a {
+	color: #000;
+}
+
+/* blogmenu */
+#frame-left .blogmenu {
+	width: 310px;
+}
+
+#frame-right .mainmenu {
+	visibility: hidden;
+}
+	#frame-right.active .mainmenu {
+		visibility: visible;
+	}
+
+#frame-right .mainmenu ul.menu {
+	padding: 0;
+	margin: 10px 0 40px;
+	width: 50%;
+	max-width: 220px;
+	padding-right: 10px;
+}
+
+#frame-right .mainmenu a:hover span,
+#frame-right .mainmenu .current-menu-item .sub-menu a:hover span,
+#frame-right .mainmenu .current-page-ancestor .sub-menu a:hover span {
+	border-bottom: 1px solid #000;
+}
+
+#frame-right .mainmenu .current-menu-item > a span,
+#frame-right .mainmenu .current-menu-ancestor > a span {
+	border-bottom: 1px solid #000;
+}
+
+#frame-right .mainmenu .menu-item-depth-0 {
+	display: block;
+}
+
+#frame-right .mainmenu .menu-link-depth-0 {
+	display: block;
+}
+
+#frame-right .mainmenu ul.sub-menu {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	left: 220px;
+	top:  0;
+	padding-left: 10px;
+	display: none;
+}
+	#frame-right .mainmenu .current-menu-item ul.sub-menu,
+	#frame-right .mainmenu .current-menu-ancestor ul.sub-menu {
+		display: block;
+	}
+
+#frame-right .mainmenu .menu-item-depth-1 {
+	font-size: 0.867em;
+	line-height: 1.538em;
+}
+
+#frame-right .mainmenu .menu-link-depth-1 {
+	display: block;
+}
+
+#frame-right .mainmenu ul.sub-menu ul {
+	padding-left: 20px;
+}
+
+/* footer */
+footer .footer-logo {
+	padding: 0 25px;
+}
+
+footer .footer-menu {
+	padding: 10px 25px;
+}
+
+/*------------------------------------*\
+    POSTS
+\*------------------------------------*/
+#frame-left article,
+#frame-right article {
+	text-align: justify;
+}
+
+
+/*------------------------------------*\
+    FILTER & LISTS
+\*------------------------------------*/
+#list-filter {
+	font-size: 12px;
+}
+
+#list-filter .filter-bundle {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	margin: 10px 0 0;
+}
+	#list-filter .filter-bundle:first-child {
+		margin-left: 0;
+	}
+	
+#list-filter .filter-letter .filter-exists,
+#list-filter .filter-letter .filter-empty {
+	margin: 0;
+}
+
+#list-filter .select-options {
+	position: absolute;
+	left: 0px;
+	top: 22px;
+	z-index: 10;
+}
+
+#list.list-arbeiten .list-item {
+	float:left;
+	width: 50%;
+	padding: 16px 32px 16px 0;
+}
+	#list.list-arbeiten .list-item:nth-child(odd) {
+		clear: left;
+	}
+
+#list.list-seminare ul {
+	margin-right: -50px;
+}
+
+#list.list-seminare .list-item {
+	float: left;
+	width: 50%;
+	padding: 0 50px 5.867em 0;
+}
+
+#list.list-seminare ul,
+#list.list-arbeiten ul {
+	margin-right: -32px;
+}
+
+#list.list-personenverzeichnis .list-item {
+	padding: 10px;
+}
+
+#list.list-personenverzeichnis .image-link {
+	margin-bottom: 0;
+}
+
+#list.list-personenverzeichnis .list-title {
+	margin: 0 0 0 70px;
+}
+
+#list.list-personenverzeichnis div[class|="wpcf-field"] {
+	margin-left: 70px;
+	clear: none;
+}
+
+
+/*------------------------------------*\
+		FRONTPAGE / HOME
+\*------------------------------------*/
+.home #frame-left .type-arbeiten-wrapper,
+.page-template-toggler-php #frame-left .type-arbeiten-wrapper {
+	margin-right: -40px;
+}
+
+.home #frame-left article.type-arbeiten,
+.page-template-toggler-php #frame-left article.type-arbeiten {
+	float: left;
+	width: 33.333%;
+	padding-right: 40px;
+}
+
+.home #frame-left article.type-arbeiten:nth-child(3n+1),
+.page-template-toggler-php #frame-left article.type-arbeiten:nth-child(3n+1) {
+	clear: left;
+}
+
+/*------------------------------------*\
+		EVENTS
+\*------------------------------------*/
+.event-item .image {
+	float: right;
+	height: 90px;
+	margin-left: 12px;
+	margin-bottom: 0px;
+}
+
+.event-item .image img {
+}
+
+/*------------------------------------*\
+    PAGINATION
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+    IMAGES & GALLERY
+\*------------------------------------*/
+.gallery-item {
+	margin-bottom: 25px;
+}
+
+.gallery .gallery-caption {
+	margin-top: 15px;
+}
+
+.gallery-item-more .gallery-icon {
+	width: 133px;
+}
+
+/* mini gallery */
+.wpcf-field-artikel-galerie,
+.wpcf-field-seminare-galerie {
+	margin: 1.467em 0;
+}
+
+.wpcf-field-artikel-galerie .gallery-item,
+.wpcf-field-seminare-galerie .gallery-item {
+	margin: 0 10px 10px 0;
+	float: left;
+	
+}
+
+.wpcf-field-artikel-galerie .gallery-item img,
+.wpcf-field-seminare-galerie .gallery-item img {
+  height: 100px;
+  min-width: 0 !important;
+  width: auto;
+}
+
+
+/*------------------------------------*\
+    Two faces
+\*------------------------------------*/
+body {
+	overflow-x: hidden;
+}
+
+#frame-right.active {
+    margin-left: 10%;
+}
+
+#frame-right.not-active {
+    margin-left: 90%;
+}
+
+#frame-left,
+#frame-right {
+	width: 90%;
+	border: 0 !important;
+}
+
+.icn-wrapper.open-right.active {
+  height: 66px;
+  padding: 24px 0 0;
+  right: 0;
+  text-align: center;
+  width: 10%;
+}
+
+#page-wrapper-left,
+#page-wrapper-right {
+	padding: 0 25px;
+	max-width: 735px;
+}
+
+}
