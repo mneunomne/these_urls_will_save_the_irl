@@ -39,8 +39,7 @@
 }
 @font-face {
   font-family: 'HfGIconFontMedium';
-  src: url('/dist/HfGIconFontMedium.eot');
-  src: url('/dist/HfGIconFontMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/dist/HfGIconFontMedium.woff2') format('woff2'), /* Super Modern Browsers */ url('/dist/HfGIconFontMedium.woff') format('woff'), /* Pretty Modern Browsers */ url('/dist/HfGIconFontMedium.ttf')  format('truetype'), /* Safari, Android, iOS */ url('/dist/HfGIconFontMedium.svg#HfGIconFontMedium') format('svg');
+  src: url('HfGIconFontMedium.woff2') format('woff2');
   
   /* IE9 Compat Modes */
   /* Legacy iOS */

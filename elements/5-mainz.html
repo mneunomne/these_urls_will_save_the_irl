@@ -1,0 +1,36 @@
+<!-- 5-mainz -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../libs/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="../websites/mainz/style.css">
+    <style>
+      body {
+        background: white;
+      }
+.card-list__header {
+    position: relative;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-bottom: 5px solid #000;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.2s;
+}
+
+span {
+  text-decoration: none !important;
+}
+span:hover {
+  text-decoration: underline !important;
+}
+
+    </style>
+    <base target="_parent">
+  </head>
+  <body>
+    <div class="el" id="target"></div>
+    <script>$('#target').load('../websites/mainz/mainz.htm .card-list--calender .card-list__header')</script>
+  </body>
+</html>
