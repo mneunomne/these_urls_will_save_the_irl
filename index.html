@@ -211,18 +211,16 @@
       $(this).mouseenter(function() {
           let __x = (Math.random()-0.5) * 400
           let __y = (Math.random()-0.5) * 400
-          // $(this).css({"-webkit-transform":`translate(${__x}px,${__y}px)`});
+          $(this).css({"-webkit-transform":`translate(${__x}px,${__y}px) scale(1.1)`});
       }).mouseleave(function() {
           // $(this).css({"-webkit-transform":`translate(${x}px,${y}px)`});
       });
 
-      /*
       setTimeout(() => {
         let __x = (Math.random()-0.5) * 400
         let __y = (Math.random()-0.5) * 400
         $(this).css({"-webkit-transform":`translate(${__x}px,${__y}px)`});
       }, 20000)
-      */
     });
 
 
