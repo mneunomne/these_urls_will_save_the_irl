@@ -113,7 +113,7 @@
     <div class="header row">
       <!-- menu burger-->
       <div class="_col col-auto">
-        <iframe src="elements/11-muthesius_kunst.html" frameborder="0" width="30" height="38"></iframe>
+        <button id="info-button">info</button>
       </div>
        <!-- zurüch -->
       <div class="_col col-auto">
@@ -130,6 +130,9 @@
       <!-- big menu -->
       <div class="_col col-auto">
         <iframe src="elements/31-ottersberg_studium.html" frameborder="0" width="492" height="45"></iframe>
+      </div>
+      <div class="_col col-auto">
+        <button id="credits-button">credits</button>
       </div>
     </div>
 
@@ -279,11 +282,8 @@
   change()
   // setInterval(change, 15000)
 
-  setInterval(function () {
-    console.log("Good luck looking at the console")
-  }, 1000)
-
-
+  $("#info-button").click(() => alert(`This website is a metaphor of some sort of UI aquarium, made to represent the endemism (state of a species being native to a single defined geographic location) of German UI. 26 websites were carefully studied and, as a result, various elements were withdrawn or \"fished\" to create a cross-section of German Art Schools websites. All the crucial elements representing websites are fished and displayed in this website-reservoir.`))
+  $("#credits-button").click(() => alert(`All the withdrawn elements (UI fish) were fetched with the best fisherman of Bremen, A. Harres. All the UI fish belongs to its university websites ponds, all rights are reserved by them. The fishing was initiated within a bigger project — "These URLs will save the IRL", travel diary through German UI, a book made by N. Musaeva`))
   // $('.corpo').randomize('iframe');
 
 
