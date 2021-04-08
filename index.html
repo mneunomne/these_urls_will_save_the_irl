@@ -25,6 +25,7 @@
     iframe {
       overflow: hidden;
       margin-bottom: 10px;
+      transition: 10s;
     }
 
     .header {
@@ -222,9 +223,9 @@
       $(this).mouseenter(function() {
           let __x = (Math.random()-0.5) * 400
           let __y = (Math.random()-0.5) * 400
-          // $(this).css({"-webkit-transform":`translate(${__x}px,${__y}px)`});
+          $(this).css({"-webkit-transform":`translate(${__x}px,${__y}px)`});
       }).mouseleave(function() {
-          // $(this).css({"-webkit-transform":`translate(${x}px,${y}px)`});
+          $(this).css({"-webkit-transform":`translate(${x}px,${y}px)`});
       });
     });
     $.fn.randomize = function(selector){
