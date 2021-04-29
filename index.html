@@ -106,12 +106,62 @@
         height: 410px;
       }
     }
+
+    #logos img {
+      max-width: 100%;
+      max-height: 75px;
+    }
+
+    #logos {
+      position: absolute;
+      width: 100%;
+      height: 75px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .logos_header {
+      height: 80px;
+    }
+    .infos {
+      position: absolute;
+      right: 15px;
+      top: 9px;
+    }
   </style>
 </head>
 
 <body>
   <div class="stop-peeking-at-this-mushified-code">
+    <div class="header row logos_header">
+      <div class="_col col-auto" id="logos" style="background-image: url('logos/Screenshot 2021-04-25 at 20.59.23.png')">
+        <!--
+        <img id="logo" style="background-image: url('logos/Screenshot 2021-04-25 at 20.59.23.png')"/>
+        <img src="logos/Screenshot 2021-04-25 at 20.59.38.png"/>
+        <img src="logos/Screenshot 2021-04-25 at 21.00.11.png"/>
+        <img src="logos/Screenshot 2021-04-25 at 21.00.19.png"/>
+        <img src="logos/Screenshot 2021-04-25 at 21.01.08.png"/>
+        <img src="logos/Screenshot 2021-04-25 at 21.01.14.png"/>
+        <img src="logos/Screenshot 2021-04-25 at 22.28.24.png"/>
+        <img src="logos/adbk-logo.png"/>
+        <img src="logos/banner2_617x110.jpeg"/>
+        <img src="logos/hks.png"/>
+        <img src="logos/logo-bcb.png"/>
+        <img src="logos/logo-folkwang.png"/>
+        <img src="logos/logo-kams@2x.png"/>
+        <img src="logos/logo.png"/>
+        <img src="logos/logo_rot.png"/>
+        -->
+      </div>
+      <!-- menu burger-->
+      <div class="_col col-auto infos">
+        <button id="info-button">info</button>
+        <button id="credits-button">credits</button>
+      </div>
+    </div>
+    
     <div class="header row">
+      <!-- LOGO -->
+
        <!-- zurüch -->
       <div class="_col col-auto">
         <iframe src="elements/68-hfk_lab.html" frameborder="0" width="168" height="65"></iframe>
@@ -127,11 +177,6 @@
       <!-- big menu -->
       <div class="_col col-auto">
         <iframe src="elements/31-ottersberg_studium.html" frameborder="0" width="492" height="45"></iframe>
-      </div>
-      <!-- menu burger-->
-      <div class="_col col-auto">
-        <button id="info-button">info</button>
-        <button id="credits-button">credits</button>
       </div>
     </div>
 
@@ -285,6 +330,32 @@
   $("#credits-button").click(() => alert(`All the withdrawn elements (UI fish) were fetched with the best fisherman of Bremen, A. Harres. All the UI fish belongs to its university websites ponds, all rights are reserved by them. The fishing was initiated within a bigger project — "These URLs will save the IRL", travel diary through German UI, a book made by N. Musaeva`))
   // $('.corpo').randomize('iframe');
 
+
+  var logos = [
+    "logos/Screenshot 2021-04-25 at 20.59.23.png",
+    "logos/Screenshot 2021-04-25 at 20.59.38.png",
+    "logos/Screenshot 2021-04-25 at 21.00.11.png",
+    "logos/Screenshot 2021-04-25 at 21.00.19.png",
+    "logos/Screenshot 2021-04-25 at 21.01.08.png",
+    "logos/Screenshot 2021-04-25 at 21.01.14.png",
+    "logos/Screenshot 2021-04-25 at 22.28.24.png",
+    "logos/adbk-logo.png",
+    "logos/banner2_617x110.jpeg",
+    "logos/hks.png",
+    "logos/logo-bcb.png",
+    "logos/logo-folkwang.png",
+    "logos/logo-kams@2x.png",
+    "logos/logo.png",
+    "logos/logo_rot.png",
+    "logos/khk-logo-black.svg",
+    "logos/weissensee_logo.svg",
+    "logos/logo_full.svg",
+    "logos/ABK_Logo_black.svg",
+  ]
+
+  setInterval(function () {
+    $("#logos").attr("style", `background-image: url(${encodeURI(logos[Math.floor(Math.random() * logos.length)])});`)
+  }, 5000)
 
   </script>
 </body>
