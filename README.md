@@ -39,9 +39,8 @@ This website is a metaphor of some sort of UI aquarium, made to represent the en
 All the withdrawn elements (UI fish) were fetched with the best fisherman of Bremen, A. Harres. All the UI fish belongs to its university websites ponds, all rights are reserved by them. The fishing was initiated within a bigger project —  "These URLs will save the IRL", travel diary through German UI, a book made by N. Musaeva
 
 
-##### sincerely,
+### sincerely,
 
+__[Nilya Musaeva](https://wishious.cargo.site/)__: Concept & Design.
 
-Concept & Design: __[Nilya Musaeva](https://wishious.cargo.site/)__
-
-Programming: __[Alberto Harres](https://mneunomne.github.io/albertoharres/#/)__
+__[Alberto Harres](https://mneunomne.github.io/albertoharres/#/)__: Programming.
