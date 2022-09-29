@@ -1,3 +1,5 @@
+<img width="1432" alt="Screenshot 2022-09-29 at 18 22 04" src="https://user-images.githubusercontent.com/4967860/193085816-d64ab250-3a3a-44a6-84ab-e661070e87db.png">
+
 # Ui fishing 
 
 This website is a metaphor of some sort of UI aquarium, made to represent the endemism (state of a species being native to a single defined geographic location) of German UI. 26 websites were carefully studied and, as a result, various elements were withdrawn or "fished" to create a cross-section of German Art Schools websites. All the crucial elements representing websites are fished and displayed in this website-reservoir.
